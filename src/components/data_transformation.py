@@ -28,7 +28,7 @@ class DataTransformation:
         
         '''
         try:
-            numerical_columns = ['Age', 'Number_of_Dependents', 'Work_Experience', 'Household_Size', 'Income']
+            numerical_columns = ['Age', 'Number_of_Dependents', 'Work_Experience', 'Household_Size']
             categorical_columns = [
                 'Education_Level', 
                 'Occupation', 
@@ -78,23 +78,13 @@ class DataTransformation:
             train_df=pd.read_csv(train_path)
             test_df=pd.read_csv(test_path)
 
-            logging.info("Read train and test data completed")
-            logging.info(
-                f"train_df: {train_df}"
-            ) 
-            logging.info(
-                f"test df: {test_df}"
-            ) 
             logging.info("Obtaining preprocessing object")
 
             preprocessing_obj=self.get_data_transformer_object()
 
-            logging.info(f"Preprocessing: {preprocessing_obj}")
-
 
             target_column_name="Income"
             logging.info(train_df[target_column_name])
-            logging.info('target column set')
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
             target_feature_train_df=train_df[target_column_name]
@@ -102,13 +92,6 @@ class DataTransformation:
             input_feature_test_df=test_df.drop(columns=[target_column_name],axis=1)
             target_feature_test_df=test_df[target_column_name]
 
-            logging.info(
-                f"input test: {input_feature_test_df}"
-            ) 
-            logging.info(
-                f"target test: {target_feature_test_df}"
-            ) 
-            
             logging.info(
                 f"Applying preprocessing object on training dataframe and testing dataframe."
             )
