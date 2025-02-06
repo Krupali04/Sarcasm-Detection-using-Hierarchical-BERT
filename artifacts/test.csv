@@ -1,1001 +1,295 @@
-Age,Education_Level,Occupation,Number_of_Dependents,Location,Work_Experience,Marital_Status,Employment_Status,Household_Size,Homeownership_Status,Type_of_Housing,Gender,Primary_Mode_of_Transportation,Income
-52,High School,Healthcare,3,Urban,38,Divorced,Full-time,1,Own,Townhouse,Male,Biking,74742
-24,Bachelor's,Education,3,Urban,24,Married,Self-employed,2,Rent,Townhouse,Female,Car,5989527
-70,Bachelor's,Technology,1,Urban,6,Divorced,Full-time,4,Own,Apartment,Female,Walking,69356
-43,High School,Finance,3,Urban,2,Single,Full-time,1,Own,Single-family home,Female,Biking,790523
-43,High School,Education,0,Urban,36,Married,Part-time,6,Own,Apartment,Female,Biking,9732313
-21,Bachelor's,Finance,0,Suburban,6,Married,Part-time,4,Rent,Townhouse,Male,Public transit,2971322
-54,Bachelor's,Technology,0,Rural,21,Single,Self-employed,4,Own,Single-family home,Male,Public transit,68376
-39,Bachelor's,Healthcare,2,Rural,19,Married,Full-time,5,Rent,Apartment,Male,Car,44013
-59,Bachelor's,Finance,1,Suburban,28,Single,Part-time,1,Rent,Apartment,Female,Car,1382157
-62,Master's,Technology,4,Urban,32,Divorced,Self-employed,7,Own,Apartment,Male,Walking,74830
-29,High School,Finance,3,Urban,25,Single,Part-time,1,Own,Single-family home,Male,Biking,67732
-48,Bachelor's,Technology,5,Suburban,22,Married,Part-time,6,Own,Apartment,Female,Car,2304474
-58,Bachelor's,Healthcare,0,Urban,28,Married,Full-time,6,Rent,Apartment,Male,Biking,645593
-68,Bachelor's,Education,0,Urban,8,Married,Self-employed,2,Rent,Apartment,Male,Public transit,38219
-23,High School,Healthcare,2,Urban,9,Married,Part-time,5,Own,Apartment,Female,Walking,274237
-56,Master's,Technology,5,Suburban,23,Married,Full-time,1,Rent,Single-family home,Male,Car,5650280
-27,Master's,Technology,3,Urban,15,Married,Full-time,5,Own,Apartment,Female,Biking,66450
-70,Master's,Finance,4,Urban,3,Single,Full-time,1,Rent,Single-family home,Female,Public transit,129929
-34,Master's,Finance,2,Suburban,44,Single,Full-time,7,Own,Townhouse,Female,Public transit,2454803
-38,High School,Education,0,Urban,14,Single,Part-time,6,Rent,Single-family home,Male,Walking,71070
-41,Doctorate,Healthcare,3,Urban,12,Single,Full-time,7,Own,Apartment,Male,Walking,65326
-55,High School,Healthcare,3,Urban,10,Single,Full-time,5,Own,Apartment,Female,Car,826700
-56,Master's,Technology,5,Urban,2,Married,Full-time,7,Own,Single-family home,Male,Biking,66132
-56,Master's,Education,3,Urban,11,Divorced,Part-time,3,Own,Single-family home,Female,Car,4528576
-54,High School,Finance,0,Urban,40,Single,Part-time,4,Own,Apartment,Female,Public transit,71954
-24,High School,Technology,1,Urban,45,Married,Part-time,1,Rent,Apartment,Male,Walking,303503
-29,Bachelor's,Others,1,Suburban,34,Divorced,Full-time,7,Own,Apartment,Male,Public transit,71690
-27,Bachelor's,Education,4,Suburban,46,Single,Full-time,6,Rent,Single-family home,Male,Public transit,556276
-28,High School,Healthcare,4,Urban,18,Single,Full-time,2,Own,Apartment,Male,Public transit,3651322
-53,Master's,Technology,5,Urban,6,Married,Part-time,1,Own,Single-family home,Male,Public transit,71490
-25,Bachelor's,Healthcare,3,Urban,4,Single,Full-time,4,Own,Single-family home,Male,Walking,4147945
-30,Bachelor's,Others,4,Rural,18,Married,Self-employed,6,Own,Single-family home,Male,Walking,1454172
-70,Master's,Healthcare,3,Urban,41,Married,Part-time,7,Rent,Single-family home,Female,Biking,924291
-24,High School,Technology,5,Suburban,18,Married,Part-time,5,Own,Single-family home,Male,Biking,2438306
-69,High School,Healthcare,1,Urban,5,Divorced,Self-employed,7,Rent,Apartment,Male,Public transit,72420
-61,Doctorate,Finance,0,Urban,38,Married,Full-time,5,Own,Apartment,Female,Public transit,72296
-29,High School,Healthcare,4,Urban,30,Single,Full-time,2,Rent,Townhouse,Male,Car,1618129
-34,Master's,Finance,2,Urban,5,Married,Part-time,2,Own,Townhouse,Male,Biking,65036
-22,Bachelor's,Healthcare,2,Suburban,1,Divorced,Full-time,5,Rent,Single-family home,Male,Car,3343221
-41,High School,Others,4,Urban,9,Single,Self-employed,6,Own,Apartment,Male,Car,392247
-21,Bachelor's,Technology,1,Suburban,0,Divorced,Self-employed,4,Own,Single-family home,Male,Biking,65244
-45,High School,Healthcare,3,Urban,1,Single,Self-employed,5,Own,Townhouse,Male,Public transit,490898
-68,High School,Healthcare,3,Urban,19,Married,Full-time,7,Own,Townhouse,Male,Public transit,66252
-62,Bachelor's,Finance,2,Urban,28,Divorced,Full-time,4,Own,Apartment,Male,Biking,70396
-61,Bachelor's,Finance,0,Suburban,5,Married,Full-time,5,Rent,Apartment,Female,Public transit,290025
-68,Bachelor's,Technology,2,Urban,30,Married,Part-time,1,Own,Single-family home,Female,Walking,74064
-67,High School,Others,3,Suburban,1,Married,Full-time,4,Own,Apartment,Female,Car,48097
-29,Bachelor's,Finance,5,Suburban,25,Married,Part-time,5,Own,Apartment,Male,Public transit,73840
-32,Master's,Technology,5,Suburban,50,Divorced,Self-employed,2,Own,Single-family home,Male,Walking,44670
-45,Master's,Others,1,Rural,21,Single,Full-time,6,Rent,Single-family home,Female,Public transit,757817
-39,High School,Others,3,Suburban,42,Single,Full-time,7,Own,Apartment,Male,Biking,2620342
-53,Master's,Others,3,Suburban,49,Married,Full-time,5,Own,Single-family home,Male,Car,73210
-31,High School,Technology,4,Urban,37,Married,Part-time,4,Rent,Single-family home,Male,Public transit,222175
-58,Master's,Healthcare,3,Urban,44,Married,Full-time,5,Rent,Single-family home,Female,Car,71886
-27,Bachelor's,Healthcare,1,Suburban,3,Married,Full-time,1,Own,Single-family home,Female,Car,1189645
-53,Bachelor's,Education,2,Urban,43,Married,Full-time,4,Own,Townhouse,Female,Car,66138
-57,Master's,Others,1,Urban,8,Divorced,Part-time,6,Rent,Single-family home,Male,Biking,75212
-43,Bachelor's,Healthcare,0,Urban,24,Married,Full-time,4,Rent,Townhouse,Female,Public transit,73910
-37,Master's,Education,5,Rural,12,Married,Full-time,5,Rent,Apartment,Male,Car,73082
-50,Bachelor's,Others,1,Suburban,41,Single,Full-time,6,Own,Apartment,Male,Public transit,69942
-59,High School,Healthcare,1,Urban,50,Married,Part-time,2,Rent,Townhouse,Female,Biking,7096066
-60,Bachelor's,Technology,2,Urban,23,Married,Part-time,4,Own,Apartment,Male,Walking,71778
-39,Master's,Education,1,Urban,32,Single,Part-time,6,Own,Single-family home,Male,Car,67448
-24,High School,Technology,3,Urban,13,Married,Self-employed,7,Own,Townhouse,Male,Public transit,71594
-40,High School,Education,3,Urban,15,Married,Full-time,3,Rent,Apartment,Female,Biking,5064162
-23,Bachelor's,Healthcare,2,Urban,16,Single,Part-time,1,Rent,Single-family home,Female,Biking,34416
-59,Bachelor's,Healthcare,0,Urban,29,Single,Self-employed,6,Own,Single-family home,Female,Biking,82521
-65,High School,Technology,3,Rural,17,Divorced,Full-time,6,Rent,Apartment,Male,Car,68584
-38,Bachelor's,Finance,1,Suburban,25,Single,Self-employed,5,Rent,Single-family home,Female,Public transit,68636
-54,Bachelor's,Finance,4,Urban,19,Single,Part-time,5,Rent,Apartment,Female,Biking,57108
-31,High School,Education,1,Rural,21,Single,Full-time,5,Own,Apartment,Female,Biking,90384
-53,Master's,Healthcare,4,Urban,34,Single,Full-time,4,Own,Apartment,Male,Public transit,75446
-37,Master's,Healthcare,1,Urban,44,Single,Full-time,5,Own,Apartment,Female,Biking,73670
-62,Master's,Technology,4,Rural,5,Single,Full-time,6,Own,Apartment,Female,Walking,150681
-58,Master's,Healthcare,0,Urban,4,Married,Self-employed,3,Own,Apartment,Male,Walking,72674
-57,High School,Healthcare,3,Suburban,8,Single,Full-time,1,Rent,Apartment,Male,Public transit,8259996
-18,Bachelor's,Others,2,Urban,1,Married,Full-time,6,Own,Apartment,Male,Biking,73316
-59,Bachelor's,Technology,5,Urban,13,Single,Part-time,2,Own,Apartment,Male,Public transit,2713855
-43,Doctorate,Others,5,Suburban,28,Married,Full-time,3,Own,Single-family home,Female,Car,75458
-41,Bachelor's,Technology,3,Rural,5,Married,Full-time,2,Own,Apartment,Male,Public transit,31830
-46,High School,Finance,1,Suburban,45,Married,Self-employed,5,Rent,Townhouse,Male,Car,66976
-21,Master's,Others,5,Urban,50,Married,Part-time,5,Rent,Townhouse,Male,Public transit,979482
-41,Master's,Healthcare,2,Urban,48,Married,Full-time,5,Own,Apartment,Female,Public transit,75460
-29,High School,Healthcare,1,Urban,37,Single,Full-time,4,Rent,Apartment,Male,Biking,378648
-30,Bachelor's,Education,0,Urban,40,Married,Full-time,7,Own,Single-family home,Male,Public transit,69456
-43,Master's,Others,1,Urban,46,Married,Full-time,4,Own,Apartment,Male,Biking,69024
-48,Master's,Others,3,Urban,49,Married,Full-time,4,Own,Apartment,Female,Biking,66826
-67,Bachelor's,Healthcare,1,Urban,42,Married,Full-time,1,Own,Apartment,Female,Public transit,73156
-62,Bachelor's,Healthcare,3,Suburban,8,Single,Part-time,2,Own,Townhouse,Female,Walking,1959160
-45,High School,Healthcare,1,Urban,47,Married,Self-employed,7,Own,Apartment,Female,Public transit,65224
-57,Master's,Technology,0,Urban,5,Married,Full-time,6,Own,Single-family home,Female,Car,73638
-19,Bachelor's,Education,3,Rural,10,Married,Full-time,2,Own,Apartment,Male,Car,68852
-39,Doctorate,Healthcare,5,Urban,34,Married,Self-employed,6,Rent,Apartment,Female,Public transit,65526
-61,Bachelor's,Education,4,Urban,25,Single,Full-time,7,Rent,Apartment,Female,Car,72392
-33,High School,Healthcare,0,Urban,50,Divorced,Full-time,5,Rent,Townhouse,Female,Walking,75230
-70,High School,Healthcare,5,Urban,35,Married,Full-time,5,Rent,Apartment,Male,Walking,34426
-32,Bachelor's,Technology,1,Urban,24,Single,Full-time,1,Rent,Townhouse,Female,Car,74462
-41,High School,Healthcare,1,Suburban,46,Divorced,Full-time,2,Rent,Townhouse,Female,Biking,71166
-28,Bachelor's,Technology,5,Urban,37,Single,Full-time,6,Rent,Apartment,Male,Public transit,590011
-42,Bachelor's,Healthcare,0,Urban,38,Single,Part-time,3,Own,Townhouse,Male,Biking,68516
-36,Bachelor's,Healthcare,3,Urban,20,Married,Full-time,1,Rent,Single-family home,Male,Biking,332874
-44,Bachelor's,Technology,5,Urban,4,Divorced,Full-time,5,Own,Single-family home,Female,Public transit,71422
-35,Master's,Technology,4,Rural,6,Married,Full-time,3,Own,Townhouse,Male,Public transit,71956
-61,Doctorate,Others,0,Urban,38,Married,Full-time,4,Rent,Apartment,Female,Car,74644
-63,Bachelor's,Education,3,Urban,47,Married,Part-time,2,Rent,Apartment,Male,Car,71626
-30,Master's,Finance,1,Urban,37,Divorced,Part-time,3,Own,Single-family home,Male,Biking,85950
-57,Bachelor's,Healthcare,2,Suburban,47,Single,Full-time,7,Own,Townhouse,Female,Public transit,75370
-47,Bachelor's,Technology,3,Urban,40,Single,Self-employed,4,Own,Single-family home,Female,Car,216662
-20,High School,Finance,4,Suburban,50,Married,Self-employed,3,Own,Apartment,Male,Public transit,68470
-48,Bachelor's,Education,5,Urban,30,Divorced,Part-time,3,Rent,Single-family home,Female,Biking,70826
-55,Bachelor's,Healthcare,3,Suburban,9,Married,Self-employed,1,Own,Apartment,Female,Biking,3352170
-29,High School,Healthcare,0,Urban,11,Married,Part-time,3,Rent,Apartment,Male,Biking,66794
-66,Bachelor's,Technology,4,Suburban,3,Single,Part-time,4,Own,Single-family home,Male,Public transit,146041
-31,Master's,Healthcare,5,Urban,6,Married,Part-time,4,Rent,Single-family home,Female,Biking,73788
-45,High School,Others,2,Urban,20,Single,Part-time,5,Own,Townhouse,Male,Public transit,64912
-53,Bachelor's,Technology,0,Urban,27,Single,Full-time,4,Rent,Single-family home,Male,Walking,69540
-67,High School,Education,3,Urban,32,Single,Self-employed,7,Rent,Single-family home,Male,Public transit,563449
-37,Bachelor's,Technology,4,Urban,33,Single,Full-time,4,Rent,Apartment,Male,Walking,606300
-40,Master's,Finance,3,Urban,29,Single,Part-time,5,Own,Single-family home,Female,Public transit,65560
-28,Bachelor's,Technology,5,Urban,19,Married,Full-time,3,Rent,Apartment,Female,Biking,76449
-29,Master's,Technology,3,Suburban,17,Single,Full-time,1,Rent,Apartment,Male,Walking,430866
-55,Bachelor's,Finance,1,Urban,4,Married,Part-time,1,Rent,Single-family home,Female,Car,90266
-32,High School,Healthcare,2,Urban,19,Single,Part-time,5,Own,Single-family home,Female,Public transit,71434
-66,Bachelor's,Education,1,Urban,3,Married,Self-employed,7,Rent,Apartment,Female,Car,70508
-68,Bachelor's,Others,4,Rural,6,Married,Part-time,6,Rent,Apartment,Male,Public transit,68962
-44,Bachelor's,Education,1,Urban,42,Married,Self-employed,4,Rent,Apartment,Male,Car,2636349
-52,High School,Healthcare,0,Rural,8,Married,Full-time,1,Own,Townhouse,Male,Car,2268248
-37,Bachelor's,Technology,1,Suburban,38,Single,Full-time,3,Rent,Townhouse,Male,Car,69372
-18,Doctorate,Technology,5,Rural,16,Married,Self-employed,6,Own,Single-family home,Male,Car,56924
-64,Bachelor's,Finance,3,Urban,34,Divorced,Part-time,3,Own,Townhouse,Female,Public transit,72772
-23,Bachelor's,Healthcare,0,Suburban,46,Married,Part-time,3,Rent,Townhouse,Male,Car,73358
-21,Bachelor's,Technology,0,Urban,2,Married,Full-time,3,Own,Single-family home,Male,Biking,70036
-70,High School,Others,0,Urban,17,Single,Part-time,3,Rent,Apartment,Female,Car,73320
-25,Bachelor's,Finance,5,Urban,27,Married,Part-time,6,Own,Single-family home,Male,Public transit,71210
-31,Bachelor's,Technology,2,Suburban,47,Divorced,Full-time,3,Own,Single-family home,Male,Car,73104
-43,Master's,Healthcare,0,Urban,28,Single,Full-time,2,Own,Apartment,Female,Car,74428
-70,High School,Finance,2,Urban,17,Married,Part-time,7,Own,Townhouse,Male,Biking,69764
-27,Bachelor's,Healthcare,1,Suburban,41,Single,Part-time,3,Own,Townhouse,Male,Biking,66378
-19,Master's,Finance,2,Urban,15,Married,Full-time,3,Own,Apartment,Male,Biking,67452
-68,High School,Healthcare,4,Urban,37,Single,Full-time,7,Own,Townhouse,Male,Public transit,73932
-52,Master's,Technology,3,Urban,39,Married,Full-time,2,Own,Apartment,Male,Car,66008
-32,High School,Healthcare,4,Urban,50,Single,Part-time,2,Rent,Apartment,Male,Car,66722
-53,High School,Healthcare,1,Rural,26,Divorced,Part-time,5,Own,Apartment,Female,Public transit,101047
-44,Bachelor's,Others,2,Urban,33,Married,Part-time,2,Own,Apartment,Female,Car,5922905
-27,Master's,Others,3,Urban,49,Married,Full-time,1,Rent,Apartment,Male,Biking,270773
-61,Bachelor's,Healthcare,4,Urban,37,Single,Part-time,4,Own,Townhouse,Male,Public transit,72138
-64,Bachelor's,Finance,0,Suburban,13,Divorced,Full-time,2,Own,Single-family home,Male,Car,65416
-50,Bachelor's,Education,4,Urban,43,Single,Full-time,1,Own,Single-family home,Male,Public transit,69188
-44,Master's,Others,4,Urban,48,Divorced,Full-time,4,Own,Single-family home,Male,Car,68070
-21,Bachelor's,Education,5,Urban,28,Single,Part-time,7,Own,Single-family home,Male,Car,8280408
-47,Master's,Healthcare,4,Urban,36,Single,Full-time,4,Own,Apartment,Male,Public transit,73574
-46,High School,Healthcare,1,Rural,25,Married,Full-time,3,Own,Townhouse,Female,Car,71690
-25,Master's,Finance,1,Urban,42,Married,Part-time,4,Rent,Apartment,Female,Car,66632
-24,Bachelor's,Finance,3,Suburban,36,Single,Part-time,2,Own,Apartment,Male,Public transit,74922
-52,High School,Healthcare,1,Suburban,22,Married,Full-time,2,Own,Single-family home,Male,Biking,68992
-60,Master's,Education,4,Suburban,17,Married,Self-employed,5,Rent,Townhouse,Female,Walking,6578778
-60,High School,Healthcare,3,Urban,29,Single,Full-time,5,Rent,Apartment,Female,Car,36117
-42,High School,Healthcare,1,Urban,39,Married,Self-employed,4,Rent,Apartment,Male,Walking,3907114
-22,High School,Others,5,Suburban,3,Single,Full-time,4,Own,Single-family home,Male,Public transit,67348
-53,Bachelor's,Healthcare,1,Rural,20,Single,Part-time,7,Own,Apartment,Male,Biking,191035
-39,Bachelor's,Education,0,Urban,9,Single,Full-time,5,Own,Apartment,Male,Car,6252651
-30,Bachelor's,Others,2,Urban,4,Married,Full-time,7,Own,Apartment,Male,Public transit,216427
-69,High School,Healthcare,1,Urban,18,Married,Part-time,3,Own,Townhouse,Male,Car,72828
-67,Master's,Finance,5,Rural,38,Divorced,Self-employed,4,Rent,Single-family home,Female,Biking,75468
-30,High School,Healthcare,2,Suburban,44,Single,Self-employed,1,Rent,Single-family home,Male,Public transit,69122
-42,Doctorate,Others,1,Suburban,46,Married,Part-time,7,Own,Apartment,Male,Car,73634
-30,High School,Technology,3,Urban,22,Single,Part-time,4,Own,Apartment,Male,Walking,8780759
-27,Bachelor's,Technology,2,Urban,30,Single,Self-employed,2,Own,Apartment,Female,Car,67782
-41,High School,Healthcare,0,Urban,31,Single,Part-time,5,Own,Single-family home,Female,Biking,69600
-38,High School,Education,4,Urban,40,Married,Full-time,3,Own,Townhouse,Female,Biking,71976
-53,High School,Education,5,Urban,12,Married,Full-time,3,Own,Apartment,Female,Public transit,75831
-61,Bachelor's,Healthcare,3,Urban,37,Single,Full-time,6,Own,Apartment,Male,Car,65500
-58,Bachelor's,Technology,0,Urban,47,Single,Self-employed,1,Own,Townhouse,Female,Biking,66830
-64,Bachelor's,Education,3,Rural,42,Married,Self-employed,3,Rent,Townhouse,Male,Biking,66324
-55,Bachelor's,Education,1,Rural,2,Single,Full-time,3,Rent,Single-family home,Male,Car,1092686
-22,Bachelor's,Healthcare,4,Urban,32,Married,Part-time,6,Rent,Townhouse,Female,Car,709613
-59,Master's,Others,5,Urban,9,Married,Full-time,2,Rent,Single-family home,Female,Car,70436
-30,Bachelor's,Healthcare,2,Urban,13,Single,Self-employed,5,Rent,Apartment,Male,Biking,141051
-67,Bachelor's,Others,2,Urban,41,Married,Self-employed,2,Own,Townhouse,Male,Walking,66368
-20,Doctorate,Technology,2,Urban,24,Divorced,Full-time,6,Rent,Apartment,Female,Walking,67582
-68,Bachelor's,Others,1,Urban,11,Married,Full-time,7,Own,Single-family home,Male,Public transit,66484
-54,High School,Healthcare,0,Urban,49,Married,Part-time,3,Rent,Single-family home,Female,Car,983332
-32,Bachelor's,Finance,2,Urban,8,Married,Part-time,5,Own,Townhouse,Female,Public transit,73154
-43,Bachelor's,Technology,0,Urban,47,Married,Part-time,5,Rent,Townhouse,Male,Biking,70006
-20,High School,Healthcare,0,Urban,29,Married,Full-time,1,Own,Apartment,Female,Car,74204
-30,Bachelor's,Finance,1,Urban,34,Single,Full-time,1,Rent,Single-family home,Male,Public transit,69146
-66,High School,Technology,5,Urban,38,Single,Self-employed,7,Rent,Single-family home,Male,Car,66580
-31,Bachelor's,Technology,0,Suburban,10,Single,Part-time,2,Own,Single-family home,Male,Car,65172
-53,Master's,Technology,5,Urban,33,Single,Part-time,2,Rent,Apartment,Male,Public transit,143648
-18,High School,Technology,0,Urban,5,Divorced,Part-time,1,Own,Single-family home,Female,Biking,6030812
-47,High School,Finance,5,Urban,17,Married,Full-time,5,Rent,Apartment,Female,Public transit,66743
-56,High School,Technology,1,Urban,48,Single,Full-time,7,Own,Apartment,Male,Public transit,68040
-30,Bachelor's,Others,5,Urban,19,Single,Full-time,3,Rent,Single-family home,Male,Public transit,68170
-70,High School,Technology,3,Urban,14,Single,Full-time,5,Own,Apartment,Male,Car,72162
-43,High School,Healthcare,5,Urban,23,Married,Full-time,1,Own,Single-family home,Female,Walking,65404
-49,Bachelor's,Others,4,Urban,45,Divorced,Self-employed,7,Rent,Single-family home,Male,Public transit,2820631
-62,Bachelor's,Technology,0,Urban,26,Single,Full-time,5,Own,Single-family home,Male,Biking,65914
-21,High School,Technology,0,Urban,33,Single,Self-employed,1,Own,Apartment,Female,Walking,66710
-23,Bachelor's,Healthcare,2,Urban,27,Married,Full-time,4,Rent,Apartment,Female,Walking,156573
-52,High School,Healthcare,1,Rural,14,Married,Full-time,3,Own,Apartment,Female,Car,162164
-32,High School,Finance,1,Suburban,30,Married,Self-employed,6,Rent,Single-family home,Male,Car,72348
-24,Bachelor's,Finance,1,Urban,24,Single,Full-time,7,Own,Single-family home,Male,Car,96708
-28,Master's,Technology,5,Suburban,7,Married,Full-time,3,Own,Single-family home,Female,Public transit,68770
-60,Bachelor's,Finance,4,Urban,44,Single,Full-time,6,Own,Single-family home,Male,Car,84522
-19,Doctorate,Healthcare,0,Suburban,5,Married,Full-time,1,Own,Apartment,Female,Walking,66648
-59,Bachelor's,Healthcare,4,Suburban,6,Single,Self-employed,3,Rent,Single-family home,Female,Public transit,82352
-19,High School,Healthcare,0,Urban,39,Divorced,Self-employed,1,Own,Single-family home,Female,Public transit,31623
-29,Bachelor's,Healthcare,4,Urban,33,Single,Full-time,6,Own,Single-family home,Female,Biking,69104
-28,High School,Healthcare,5,Urban,14,Married,Full-time,1,Own,Apartment,Female,Public transit,979144
-65,Bachelor's,Others,2,Urban,32,Married,Part-time,3,Own,Townhouse,Female,Walking,68754
-44,Master's,Healthcare,3,Rural,34,Married,Part-time,1,Rent,Townhouse,Female,Car,2819037
-32,Bachelor's,Healthcare,0,Suburban,5,Married,Full-time,2,Own,Single-family home,Female,Biking,67420
-41,Bachelor's,Education,1,Urban,49,Single,Self-employed,2,Rent,Apartment,Male,Biking,3714714
-26,Master's,Technology,3,Suburban,23,Married,Part-time,4,Rent,Townhouse,Female,Biking,72284
-66,Bachelor's,Finance,3,Urban,47,Married,Full-time,1,Own,Townhouse,Male,Walking,5844480
-69,Bachelor's,Others,4,Urban,4,Single,Full-time,4,Rent,Single-family home,Female,Public transit,508274
-25,Bachelor's,Healthcare,3,Suburban,35,Single,Part-time,5,Own,Single-family home,Female,Car,67862
-61,Master's,Healthcare,0,Urban,48,Married,Part-time,6,Own,Single-family home,Female,Biking,68150
-58,Bachelor's,Healthcare,5,Urban,42,Married,Part-time,6,Own,Townhouse,Female,Public transit,69678
-40,Master's,Healthcare,5,Urban,9,Married,Part-time,6,Own,Apartment,Male,Public transit,644694
-28,High School,Finance,1,Urban,4,Married,Self-employed,3,Own,Townhouse,Female,Public transit,75208
-34,High School,Healthcare,4,Rural,0,Married,Self-employed,6,Own,Apartment,Female,Public transit,68400
-70,High School,Education,5,Urban,23,Married,Part-time,4,Own,Apartment,Female,Public transit,93932
-48,High School,Healthcare,5,Suburban,6,Married,Full-time,4,Own,Apartment,Male,Public transit,69386
-32,Bachelor's,Technology,5,Suburban,12,Married,Part-time,1,Own,Apartment,Male,Public transit,266122
-47,Doctorate,Healthcare,0,Suburban,23,Single,Full-time,6,Own,Single-family home,Female,Walking,1250871
-53,Bachelor's,Technology,1,Suburban,15,Married,Part-time,3,Own,Apartment,Female,Biking,8914304
-62,Bachelor's,Healthcare,5,Urban,23,Divorced,Self-employed,7,Own,Single-family home,Male,Biking,71148
-23,Bachelor's,Healthcare,5,Urban,41,Single,Part-time,3,Own,Apartment,Male,Public transit,67482
-60,Bachelor's,Healthcare,4,Suburban,29,Married,Full-time,1,Rent,Apartment,Female,Public transit,89407
-46,High School,Technology,2,Urban,0,Married,Part-time,3,Rent,Apartment,Male,Biking,74370
-40,Master's,Technology,4,Urban,13,Single,Self-employed,3,Rent,Townhouse,Female,Public transit,72422
-33,High School,Healthcare,4,Urban,39,Divorced,Full-time,3,Rent,Single-family home,Female,Car,403544
-32,Bachelor's,Technology,3,Suburban,15,Married,Full-time,4,Own,Apartment,Female,Car,67428
-26,High School,Technology,2,Urban,37,Married,Full-time,4,Rent,Single-family home,Female,Public transit,6137814
-60,Master's,Technology,1,Urban,1,Single,Full-time,5,Own,Townhouse,Male,Biking,74754
-43,High School,Others,3,Urban,35,Single,Part-time,7,Own,Apartment,Female,Public transit,975882
-33,Master's,Healthcare,1,Urban,10,Single,Full-time,4,Rent,Apartment,Male,Car,123649
-19,High School,Healthcare,2,Urban,33,Married,Full-time,1,Rent,Single-family home,Male,Public transit,881400
-29,High School,Finance,3,Urban,4,Married,Self-employed,5,Rent,Townhouse,Female,Car,559926
-21,Master's,Others,0,Urban,35,Married,Full-time,1,Own,Apartment,Female,Public transit,68760
-39,High School,Technology,5,Urban,36,Single,Full-time,1,Own,Townhouse,Male,Car,64990
-51,High School,Healthcare,0,Urban,0,Married,Full-time,1,Own,Apartment,Male,Biking,68654
-55,High School,Healthcare,3,Urban,24,Married,Full-time,4,Own,Apartment,Female,Public transit,67478
-37,Doctorate,Technology,3,Urban,33,Married,Full-time,3,Own,Single-family home,Female,Car,65162
-31,Master's,Healthcare,5,Urban,23,Married,Full-time,3,Own,Single-family home,Male,Biking,65672
-47,High School,Technology,1,Urban,17,Married,Self-employed,4,Own,Apartment,Male,Car,74676
-24,High School,Technology,0,Urban,21,Single,Self-employed,6,Rent,Single-family home,Male,Car,74934
-67,High School,Education,2,Suburban,25,Single,Full-time,3,Own,Single-family home,Female,Public transit,66722
-42,High School,Technology,1,Urban,21,Married,Full-time,4,Rent,Single-family home,Male,Public transit,3486007
-68,Bachelor's,Finance,2,Urban,49,Single,Part-time,5,Own,Single-family home,Female,Car,71238
-33,Bachelor's,Healthcare,1,Rural,34,Single,Full-time,1,Own,Single-family home,Male,Car,71576
-33,High School,Finance,0,Suburban,14,Single,Full-time,4,Own,Townhouse,Male,Walking,75434
-26,Master's,Education,3,Urban,26,Married,Part-time,2,Own,Single-family home,Male,Car,69462
-53,Master's,Healthcare,1,Urban,2,Divorced,Full-time,4,Own,Apartment,Male,Car,4122386
-55,Bachelor's,Education,2,Urban,10,Married,Self-employed,4,Rent,Apartment,Female,Biking,73150
-47,Bachelor's,Technology,3,Urban,30,Single,Part-time,4,Rent,Single-family home,Male,Biking,592112
-27,Bachelor's,Others,4,Urban,33,Divorced,Full-time,5,Own,Apartment,Female,Car,74116
-29,High School,Education,5,Suburban,2,Single,Part-time,2,Own,Townhouse,Male,Car,2850156
-29,Bachelor's,Healthcare,1,Urban,39,Single,Part-time,4,Own,Townhouse,Male,Biking,74098
-32,Bachelor's,Education,2,Rural,6,Married,Full-time,7,Rent,Townhouse,Female,Public transit,65856
-64,High School,Technology,4,Rural,10,Married,Full-time,7,Own,Single-family home,Male,Biking,240098
-33,High School,Education,3,Urban,32,Married,Full-time,7,Own,Townhouse,Male,Walking,71900
-49,Doctorate,Technology,2,Urban,3,Married,Full-time,7,Rent,Single-family home,Female,Public transit,72592
-34,Master's,Healthcare,4,Suburban,39,Married,Full-time,7,Own,Single-family home,Male,Public transit,69682
-49,Bachelor's,Technology,1,Rural,1,Married,Full-time,2,Own,Apartment,Male,Public transit,74472
-36,Bachelor's,Finance,5,Suburban,24,Married,Self-employed,6,Rent,Townhouse,Female,Public transit,70494
-61,Master's,Healthcare,5,Suburban,17,Single,Part-time,7,Rent,Townhouse,Female,Walking,373400
-31,Master's,Healthcare,5,Urban,19,Single,Part-time,4,Own,Single-family home,Male,Car,74190
-63,Bachelor's,Healthcare,5,Suburban,42,Married,Full-time,4,Rent,Townhouse,Male,Walking,67380
-35,High School,Others,0,Suburban,4,Married,Full-time,1,Rent,Townhouse,Male,Biking,68932
-39,Bachelor's,Healthcare,3,Suburban,1,Single,Self-employed,1,Own,Townhouse,Male,Car,170451
-19,Bachelor's,Healthcare,0,Urban,21,Single,Full-time,2,Rent,Apartment,Male,Public transit,279059
-51,Bachelor's,Education,0,Urban,39,Married,Full-time,7,Own,Single-family home,Female,Car,70850
-67,High School,Others,1,Urban,1,Married,Part-time,4,Rent,Apartment,Male,Car,65310
-29,Master's,Education,0,Rural,14,Single,Full-time,7,Own,Apartment,Female,Car,341511
-18,Master's,Technology,5,Urban,5,Single,Self-employed,3,Rent,Apartment,Female,Public transit,59136
-60,Master's,Others,5,Urban,12,Single,Self-employed,7,Rent,Apartment,Male,Biking,68610
-66,Bachelor's,Finance,2,Urban,33,Married,Full-time,5,Own,Apartment,Female,Car,70556
-23,Bachelor's,Finance,2,Urban,29,Married,Full-time,3,Own,Single-family home,Male,Biking,49304
-26,Master's,Finance,4,Urban,37,Single,Part-time,4,Own,Single-family home,Male,Car,65200
-31,Master's,Technology,4,Urban,18,Divorced,Part-time,5,Own,Townhouse,Female,Car,66424
-30,Doctorate,Finance,1,Rural,39,Single,Full-time,5,Own,Apartment,Female,Public transit,427771
-22,Master's,Technology,3,Urban,37,Single,Full-time,4,Rent,Apartment,Male,Biking,3849885
-33,Master's,Finance,4,Urban,29,Married,Full-time,7,Own,Townhouse,Male,Car,2295842
-42,Bachelor's,Healthcare,2,Suburban,49,Single,Self-employed,2,Rent,Single-family home,Male,Car,67272
-47,Bachelor's,Education,1,Urban,19,Married,Full-time,4,Own,Apartment,Male,Public transit,72538
-32,High School,Finance,3,Urban,5,Married,Full-time,3,Own,Single-family home,Male,Biking,73552
-25,Bachelor's,Healthcare,1,Rural,16,Single,Full-time,4,Own,Townhouse,Male,Public transit,73786
-41,High School,Healthcare,0,Urban,13,Married,Self-employed,3,Rent,Townhouse,Female,Car,65514
-42,Master's,Healthcare,0,Urban,29,Single,Part-time,2,Rent,Apartment,Male,Biking,222508
-23,Master's,Others,0,Urban,41,Single,Full-time,1,Rent,Townhouse,Male,Public transit,70694
-69,Bachelor's,Education,4,Urban,9,Married,Self-employed,4,Own,Single-family home,Female,Biking,66862
-64,High School,Technology,1,Urban,50,Married,Full-time,1,Own,Single-family home,Female,Car,40450
-58,High School,Healthcare,0,Urban,5,Divorced,Self-employed,7,Own,Apartment,Male,Biking,73072
-53,Master's,Others,1,Urban,5,Single,Self-employed,5,Rent,Single-family home,Female,Car,334956
-54,Bachelor's,Finance,2,Suburban,30,Married,Full-time,6,Own,Apartment,Female,Car,67922
-69,Master's,Education,3,Urban,15,Married,Self-employed,7,Own,Apartment,Female,Car,68294
-52,Bachelor's,Healthcare,4,Urban,44,Married,Part-time,6,Own,Townhouse,Male,Biking,65782
-51,High School,Education,5,Suburban,21,Single,Full-time,4,Own,Apartment,Male,Walking,107148
-54,High School,Technology,3,Urban,50,Married,Full-time,3,Rent,Single-family home,Male,Public transit,8811041
-67,High School,Education,1,Urban,42,Single,Full-time,4,Own,Townhouse,Male,Car,75448
-33,Master's,Finance,2,Rural,25,Single,Self-employed,2,Own,Townhouse,Female,Public transit,55106
-68,High School,Technology,0,Suburban,41,Single,Full-time,2,Own,Single-family home,Female,Car,69416
-26,Bachelor's,Others,4,Rural,47,Married,Full-time,7,Own,Apartment,Male,Car,351674
-46,Master's,Technology,4,Urban,40,Married,Part-time,6,Rent,Single-family home,Male,Walking,3037290
-59,High School,Education,2,Rural,6,Married,Self-employed,5,Own,Single-family home,Male,Public transit,37890
-21,Master's,Technology,3,Urban,15,Married,Full-time,2,Own,Townhouse,Female,Car,75162
-23,Bachelor's,Technology,1,Rural,32,Single,Full-time,2,Rent,Apartment,Male,Car,2313939
-18,Bachelor's,Education,5,Urban,17,Single,Full-time,7,Own,Townhouse,Male,Public transit,69980
-53,Bachelor's,Healthcare,3,Urban,23,Single,Part-time,7,Rent,Townhouse,Male,Car,457352
-28,Master's,Education,0,Urban,32,Married,Full-time,1,Rent,Townhouse,Male,Biking,73188
-30,Bachelor's,Others,3,Urban,34,Single,Self-employed,3,Rent,Single-family home,Male,Biking,2025740
-61,Bachelor's,Education,4,Urban,5,Single,Full-time,6,Own,Apartment,Male,Public transit,44141
-65,Bachelor's,Healthcare,0,Urban,4,Married,Full-time,2,Rent,Apartment,Female,Public transit,66818
-21,Master's,Others,5,Urban,33,Married,Part-time,4,Own,Townhouse,Male,Biking,68448
-53,Master's,Technology,0,Suburban,20,Married,Full-time,7,Rent,Townhouse,Male,Car,73122
-39,Master's,Others,5,Rural,46,Single,Part-time,7,Own,Apartment,Female,Car,77782
-19,Master's,Education,3,Suburban,23,Divorced,Part-time,7,Own,Single-family home,Female,Public transit,4625431
-57,High School,Healthcare,5,Urban,28,Married,Part-time,7,Own,Townhouse,Female,Public transit,66048
-33,Master's,Technology,4,Urban,3,Married,Full-time,2,Own,Townhouse,Male,Public transit,69518
-19,High School,Others,3,Urban,47,Single,Self-employed,2,Own,Apartment,Male,Public transit,72630
-21,High School,Technology,2,Suburban,42,Single,Part-time,6,Own,Townhouse,Female,Walking,66088
-30,Bachelor's,Others,2,Suburban,24,Single,Self-employed,1,Rent,Townhouse,Female,Car,73120
-31,Doctorate,Education,5,Urban,13,Single,Part-time,3,Own,Apartment,Female,Walking,71932
-42,Bachelor's,Technology,0,Suburban,23,Single,Part-time,4,Own,Single-family home,Male,Public transit,74410
-49,Bachelor's,Healthcare,1,Urban,30,Single,Self-employed,3,Own,Townhouse,Male,Biking,1476972
-59,High School,Education,4,Urban,32,Single,Full-time,7,Own,Apartment,Female,Biking,5368369
-46,High School,Education,1,Urban,45,Married,Full-time,3,Own,Single-family home,Male,Public transit,70996
-18,Bachelor's,Education,3,Urban,48,Married,Part-time,7,Rent,Townhouse,Male,Public transit,639409
-43,Bachelor's,Finance,2,Urban,25,Married,Part-time,5,Own,Single-family home,Male,Public transit,74818
-33,Bachelor's,Healthcare,2,Suburban,35,Married,Full-time,5,Rent,Single-family home,Female,Public transit,4319486
-61,Bachelor's,Others,3,Urban,32,Married,Part-time,4,Own,Single-family home,Female,Public transit,68204
-42,Master's,Finance,5,Urban,36,Married,Self-employed,1,Rent,Apartment,Female,Car,67126
-27,High School,Technology,0,Suburban,37,Married,Part-time,3,Own,Single-family home,Male,Public transit,74970
-27,Master's,Healthcare,0,Urban,11,Single,Full-time,7,Rent,Apartment,Female,Public transit,187280
-59,High School,Technology,5,Suburban,41,Divorced,Full-time,6,Rent,Single-family home,Female,Public transit,2480059
-65,Master's,Healthcare,4,Suburban,10,Single,Full-time,1,Rent,Apartment,Female,Public transit,70412
-40,Bachelor's,Healthcare,4,Urban,49,Married,Part-time,5,Own,Townhouse,Female,Walking,71272
-52,Master's,Healthcare,5,Urban,13,Single,Self-employed,5,Rent,Single-family home,Male,Public transit,1127238
-42,Doctorate,Healthcare,2,Urban,18,Divorced,Part-time,2,Own,Single-family home,Female,Walking,66828
-35,Master's,Finance,2,Rural,17,Divorced,Full-time,7,Rent,Single-family home,Female,Car,67362
-68,Master's,Finance,3,Rural,37,Single,Full-time,6,Own,Townhouse,Female,Car,66204
-58,Bachelor's,Healthcare,2,Rural,25,Single,Full-time,6,Rent,Apartment,Female,Public transit,102199
-50,Bachelor's,Healthcare,1,Suburban,11,Married,Full-time,5,Rent,Apartment,Female,Public transit,62050
-18,Master's,Others,5,Urban,16,Single,Full-time,6,Own,Single-family home,Female,Car,74430
-41,Bachelor's,Education,0,Urban,7,Married,Full-time,7,Own,Apartment,Male,Public transit,2957043
-53,Bachelor's,Healthcare,3,Suburban,12,Married,Full-time,1,Rent,Apartment,Female,Public transit,74046
-42,Master's,Education,5,Urban,21,Married,Full-time,4,Rent,Single-family home,Female,Car,95750
-69,Bachelor's,Others,4,Urban,18,Married,Self-employed,6,Own,Townhouse,Male,Car,72618
-51,Bachelor's,Finance,1,Urban,47,Married,Full-time,4,Own,Single-family home,Male,Biking,1804765
-45,High School,Others,2,Urban,21,Divorced,Part-time,5,Own,Apartment,Female,Public transit,412832
-58,Bachelor's,Healthcare,4,Urban,8,Single,Part-time,5,Own,Townhouse,Female,Biking,69374
-22,Master's,Finance,0,Urban,38,Married,Part-time,7,Own,Townhouse,Male,Car,4096888
-52,Master's,Technology,1,Urban,39,Married,Self-employed,6,Rent,Apartment,Male,Public transit,74578
-50,High School,Others,3,Rural,8,Married,Self-employed,7,Rent,Apartment,Male,Public transit,3275910
-30,Bachelor's,Healthcare,2,Suburban,19,Married,Full-time,7,Own,Apartment,Male,Walking,67880
-35,Master's,Others,3,Urban,47,Married,Full-time,1,Rent,Single-family home,Male,Public transit,2284320
-60,Master's,Healthcare,1,Urban,15,Single,Part-time,3,Own,Single-family home,Male,Public transit,74630
-56,High School,Finance,1,Suburban,20,Married,Part-time,5,Own,Apartment,Male,Car,73314
-57,Bachelor's,Technology,4,Suburban,5,Single,Full-time,1,Rent,Single-family home,Female,Car,65964
-65,Bachelor's,Others,2,Urban,38,Single,Self-employed,7,Own,Apartment,Male,Public transit,70682
-68,High School,Healthcare,0,Urban,38,Divorced,Full-time,7,Own,Townhouse,Male,Public transit,34726
-62,Master's,Others,2,Urban,23,Married,Self-employed,1,Own,Single-family home,Female,Public transit,73096
-65,Doctorate,Healthcare,5,Urban,18,Married,Full-time,3,Rent,Apartment,Male,Biking,70438
-19,High School,Finance,0,Urban,35,Single,Full-time,2,Rent,Townhouse,Female,Public transit,72202
-53,High School,Technology,4,Suburban,48,Divorced,Full-time,6,Own,Apartment,Female,Public transit,64960
-44,High School,Education,2,Urban,8,Single,Part-time,3,Own,Single-family home,Female,Biking,158435
-65,Master's,Healthcare,5,Rural,16,Single,Part-time,2,Own,Apartment,Male,Walking,73986
-33,Master's,Healthcare,1,Urban,50,Married,Full-time,2,Own,Single-family home,Female,Public transit,107366
-59,Bachelor's,Technology,5,Urban,10,Single,Self-employed,3,Own,Apartment,Male,Biking,75202
-19,Bachelor's,Others,4,Urban,46,Married,Part-time,2,Own,Townhouse,Male,Walking,74274
-66,Bachelor's,Technology,1,Urban,42,Single,Self-employed,7,Own,Apartment,Male,Biking,98044
-18,Master's,Others,5,Urban,34,Married,Full-time,6,Rent,Apartment,Female,Biking,43467
-21,Master's,Finance,3,Urban,9,Married,Full-time,1,Own,Apartment,Female,Car,66836
-47,Bachelor's,Healthcare,1,Urban,3,Single,Part-time,5,Rent,Townhouse,Male,Public transit,73564
-70,Bachelor's,Others,1,Urban,16,Married,Full-time,1,Rent,Single-family home,Female,Car,197392
-49,Bachelor's,Others,1,Urban,43,Single,Self-employed,5,Rent,Apartment,Male,Public transit,2275178
-45,High School,Finance,3,Urban,22,Married,Self-employed,5,Own,Single-family home,Male,Public transit,70482
-28,Master's,Healthcare,5,Urban,10,Married,Full-time,5,Own,Apartment,Male,Car,65790
-41,Bachelor's,Healthcare,1,Urban,20,Married,Full-time,2,Rent,Apartment,Male,Biking,197016
-62,Bachelor's,Others,0,Urban,23,Married,Full-time,3,Rent,Apartment,Male,Car,63969
-63,Bachelor's,Healthcare,4,Urban,5,Single,Full-time,6,Own,Townhouse,Male,Public transit,68250
-62,Bachelor's,Education,1,Urban,48,Married,Self-employed,1,Rent,Single-family home,Female,Car,71434
-32,High School,Finance,3,Suburban,49,Single,Part-time,3,Own,Apartment,Male,Car,72754
-56,Bachelor's,Healthcare,1,Urban,31,Single,Part-time,5,Own,Single-family home,Male,Public transit,74852
-22,Bachelor's,Education,2,Urban,44,Married,Full-time,4,Rent,Single-family home,Male,Public transit,1052753
-40,Bachelor's,Others,3,Suburban,16,Married,Full-time,5,Own,Single-family home,Female,Walking,5288001
-20,Bachelor's,Healthcare,5,Urban,26,Married,Part-time,5,Own,Apartment,Male,Public transit,4121808
-63,High School,Finance,3,Urban,3,Married,Full-time,2,Own,Apartment,Male,Biking,1895857
-34,High School,Healthcare,3,Urban,43,Single,Part-time,6,Rent,Apartment,Female,Biking,68906
-57,High School,Healthcare,4,Urban,30,Married,Full-time,2,Own,Apartment,Male,Car,73276
-32,Doctorate,Technology,1,Suburban,1,Single,Full-time,4,Own,Single-family home,Male,Biking,68744
-26,High School,Technology,1,Urban,8,Single,Full-time,6,Own,Single-family home,Female,Public transit,70806
-58,Master's,Finance,4,Urban,39,Single,Full-time,1,Own,Apartment,Female,Public transit,71032
-69,Master's,Healthcare,2,Urban,40,Divorced,Full-time,2,Rent,Townhouse,Female,Public transit,70676
-56,Bachelor's,Education,2,Urban,2,Married,Part-time,4,Rent,Townhouse,Female,Car,1382522
-20,Bachelor's,Finance,0,Urban,19,Single,Part-time,2,Own,Single-family home,Female,Biking,72936
-56,Bachelor's,Others,4,Rural,34,Single,Part-time,1,Own,Townhouse,Male,Car,1035856
-53,Master's,Technology,0,Suburban,32,Married,Full-time,3,Rent,Single-family home,Female,Public transit,73964
-25,Master's,Technology,0,Urban,23,Single,Part-time,6,Rent,Apartment,Male,Public transit,666836
-18,Master's,Technology,4,Urban,2,Married,Full-time,7,Own,Single-family home,Female,Biking,66566
-35,Bachelor's,Education,4,Suburban,23,Single,Full-time,1,Own,Single-family home,Male,Biking,7848650
-55,Master's,Finance,3,Urban,49,Single,Self-employed,7,Rent,Apartment,Female,Walking,65536
-68,Doctorate,Others,5,Urban,12,Married,Self-employed,2,Rent,Single-family home,Male,Public transit,65354
-48,Master's,Education,3,Urban,15,Single,Part-time,6,Own,Apartment,Male,Walking,954271
-47,Bachelor's,Technology,5,Urban,28,Married,Full-time,5,Own,Single-family home,Female,Biking,71778
-49,High School,Others,2,Rural,17,Single,Full-time,5,Rent,Townhouse,Male,Public transit,100785
-38,Bachelor's,Finance,1,Urban,19,Single,Full-time,1,Rent,Single-family home,Male,Car,68770
-63,High School,Finance,2,Urban,32,Married,Full-time,7,Own,Single-family home,Female,Public transit,69946
-66,Master's,Healthcare,5,Urban,13,Single,Full-time,2,Rent,Single-family home,Male,Public transit,130108
-52,Bachelor's,Others,2,Rural,1,Married,Full-time,2,Own,Apartment,Male,Biking,46412
-39,High School,Healthcare,5,Urban,46,Single,Self-employed,5,Rent,Single-family home,Male,Public transit,5123948
-41,Bachelor's,Technology,3,Suburban,7,Single,Self-employed,6,Own,Single-family home,Female,Car,71210
-53,Bachelor's,Technology,4,Urban,26,Single,Part-time,2,Own,Single-family home,Female,Car,68106
-42,High School,Others,3,Urban,10,Married,Full-time,3,Own,Apartment,Female,Car,127620
-26,Doctorate,Education,4,Urban,24,Married,Part-time,2,Own,Apartment,Male,Car,66516
-30,High School,Finance,3,Suburban,8,Married,Self-employed,3,Rent,Single-family home,Female,Car,871591
-32,Bachelor's,Technology,1,Suburban,20,Divorced,Full-time,5,Rent,Apartment,Female,Biking,992046
-57,Master's,Technology,2,Urban,44,Single,Full-time,3,Own,Single-family home,Female,Car,184279
-30,High School,Others,1,Urban,35,Divorced,Part-time,4,Rent,Apartment,Male,Public transit,69476
-41,Bachelor's,Technology,3,Suburban,50,Divorced,Full-time,7,Own,Single-family home,Female,Biking,75002
-51,High School,Healthcare,3,Rural,39,Single,Part-time,4,Rent,Apartment,Male,Car,67620
-62,Bachelor's,Healthcare,5,Urban,27,Single,Self-employed,4,Rent,Apartment,Female,Public transit,320354
-32,Bachelor's,Technology,1,Suburban,27,Married,Self-employed,5,Own,Single-family home,Female,Car,70900
-27,Bachelor's,Technology,2,Urban,20,Married,Full-time,2,Rent,Apartment,Female,Car,385342
-42,Bachelor's,Technology,3,Urban,6,Single,Full-time,1,Own,Apartment,Female,Walking,7260346
-70,Master's,Education,4,Rural,16,Single,Part-time,3,Rent,Single-family home,Female,Public transit,64996
-68,Master's,Technology,0,Suburban,0,Married,Full-time,7,Rent,Single-family home,Male,Biking,68972
-64,High School,Healthcare,3,Urban,35,Single,Full-time,2,Own,Townhouse,Male,Public transit,67082
-41,High School,Education,4,Rural,27,Single,Self-employed,6,Own,Apartment,Female,Car,137678
-59,Bachelor's,Technology,3,Urban,44,Single,Part-time,4,Own,Single-family home,Female,Public transit,73166
-38,Bachelor's,Finance,4,Suburban,13,Married,Self-employed,7,Own,Single-family home,Male,Public transit,68102
-54,High School,Healthcare,1,Urban,18,Married,Part-time,2,Own,Apartment,Male,Car,6821747
-37,High School,Healthcare,3,Rural,9,Single,Full-time,1,Own,Single-family home,Female,Biking,72296
-30,Doctorate,Technology,2,Suburban,17,Married,Self-employed,2,Own,Single-family home,Male,Car,69136
-45,Bachelor's,Healthcare,5,Urban,29,Married,Self-employed,7,Rent,Townhouse,Male,Car,66604
-61,Master's,Healthcare,1,Urban,1,Divorced,Full-time,5,Rent,Single-family home,Female,Biking,74702
-42,Bachelor's,Education,2,Urban,34,Single,Full-time,2,Rent,Single-family home,Female,Walking,509824
-70,High School,Finance,1,Urban,33,Married,Full-time,2,Own,Apartment,Male,Biking,71320
-19,High School,Education,1,Suburban,40,Single,Full-time,3,Rent,Apartment,Male,Car,117074
-30,High School,Education,0,Rural,37,Married,Part-time,5,Own,Single-family home,Male,Car,569307
-44,High School,Others,1,Urban,39,Married,Full-time,6,Rent,Townhouse,Male,Public transit,6517012
-62,Master's,Technology,5,Urban,19,Married,Self-employed,2,Rent,Single-family home,Male,Biking,75196
-40,High School,Technology,0,Urban,13,Married,Full-time,4,Own,Single-family home,Female,Biking,67216
-42,Master's,Finance,0,Suburban,17,Married,Self-employed,5,Rent,Apartment,Female,Car,71870
-70,Doctorate,Others,2,Rural,35,Married,Full-time,3,Rent,Single-family home,Female,Car,65608
-33,Bachelor's,Technology,2,Suburban,30,Married,Self-employed,1,Rent,Townhouse,Female,Public transit,67942
-62,Master's,Education,4,Urban,20,Married,Self-employed,6,Own,Apartment,Female,Biking,70776
-23,Bachelor's,Others,4,Urban,33,Single,Self-employed,1,Own,Townhouse,Female,Biking,68096
-41,Bachelor's,Technology,1,Urban,43,Married,Full-time,2,Own,Single-family home,Male,Public transit,106368
-25,High School,Others,3,Urban,19,Married,Full-time,2,Own,Townhouse,Male,Walking,64924
-59,High School,Healthcare,4,Urban,43,Married,Full-time,4,Own,Apartment,Female,Biking,69830
-54,High School,Others,5,Rural,42,Single,Full-time,1,Own,Apartment,Male,Biking,54754
-34,Master's,Healthcare,5,Urban,24,Single,Full-time,5,Rent,Apartment,Female,Public transit,103888
-58,High School,Education,3,Urban,22,Married,Part-time,3,Own,Townhouse,Male,Public transit,66248
-20,Master's,Education,4,Urban,48,Divorced,Part-time,6,Own,Apartment,Male,Public transit,70558
-58,Bachelor's,Technology,5,Urban,26,Married,Full-time,2,Rent,Single-family home,Male,Car,1716914
-29,Bachelor's,Technology,0,Rural,2,Single,Full-time,7,Own,Single-family home,Female,Car,321241
-46,Master's,Healthcare,5,Suburban,16,Married,Full-time,2,Own,Apartment,Female,Public transit,5324279
-49,High School,Technology,2,Urban,40,Married,Self-employed,7,Rent,Apartment,Male,Public transit,7137691
-32,Bachelor's,Finance,0,Urban,48,Married,Self-employed,2,Own,Apartment,Female,Car,2260197
-31,Bachelor's,Technology,4,Urban,19,Married,Full-time,6,Own,Apartment,Female,Public transit,67052
-26,Master's,Education,5,Urban,4,Divorced,Full-time,3,Own,Single-family home,Female,Car,652099
-22,Bachelor's,Healthcare,4,Urban,3,Single,Full-time,1,Rent,Single-family home,Female,Car,3761337
-27,Bachelor's,Education,5,Suburban,36,Single,Full-time,6,Rent,Townhouse,Male,Biking,1304551
-61,Master's,Technology,2,Urban,3,Married,Full-time,4,Own,Townhouse,Male,Biking,75170
-42,High School,Others,5,Urban,37,Married,Self-employed,7,Own,Single-family home,Female,Public transit,75016
-67,Master's,Education,1,Urban,3,Single,Full-time,6,Own,Townhouse,Male,Car,68990
-69,Master's,Others,2,Urban,9,Married,Full-time,6,Own,Apartment,Male,Car,6387420
-27,High School,Technology,4,Urban,23,Single,Part-time,2,Own,Apartment,Male,Public transit,5443050
-37,Bachelor's,Technology,3,Suburban,46,Married,Full-time,3,Rent,Single-family home,Male,Public transit,65544
-46,High School,Technology,4,Urban,8,Single,Full-time,2,Own,Apartment,Female,Biking,1749175
-52,Doctorate,Finance,3,Urban,33,Married,Full-time,1,Own,Apartment,Female,Walking,72858
-46,Bachelor's,Technology,5,Urban,35,Married,Full-time,4,Rent,Townhouse,Male,Public transit,71710
-26,Bachelor's,Education,5,Urban,6,Married,Full-time,3,Own,Apartment,Female,Public transit,54316
-33,Bachelor's,Healthcare,1,Rural,27,Single,Self-employed,4,Own,Single-family home,Female,Public transit,66272
-24,Bachelor's,Technology,5,Urban,7,Single,Full-time,7,Own,Apartment,Male,Public transit,5253902
-57,Bachelor's,Technology,4,Suburban,14,Single,Part-time,1,Own,Townhouse,Male,Biking,75054
-23,High School,Technology,5,Suburban,17,Divorced,Full-time,2,Rent,Single-family home,Female,Public transit,124822
-19,Bachelor's,Education,0,Urban,10,Single,Full-time,1,Rent,Single-family home,Female,Biking,66943
-32,High School,Others,2,Urban,32,Married,Full-time,1,Own,Apartment,Female,Car,74520
-58,High School,Technology,0,Urban,46,Married,Self-employed,1,Rent,Apartment,Male,Car,73760
-65,High School,Healthcare,2,Suburban,12,Single,Full-time,2,Own,Apartment,Male,Public transit,548550
-54,High School,Others,3,Urban,33,Married,Full-time,5,Rent,Townhouse,Female,Car,664183
-52,Doctorate,Healthcare,1,Urban,10,Single,Part-time,4,Own,Single-family home,Male,Car,36324
-42,Master's,Healthcare,2,Urban,35,Married,Part-time,4,Rent,Apartment,Male,Public transit,113447
-53,Bachelor's,Finance,0,Urban,11,Married,Part-time,7,Own,Apartment,Male,Biking,66784
-48,Bachelor's,Finance,2,Urban,9,Single,Full-time,6,Own,Apartment,Female,Car,66452
-66,Master's,Finance,4,Suburban,18,Single,Part-time,6,Own,Single-family home,Male,Car,72912
-42,Doctorate,Healthcare,0,Suburban,0,Single,Full-time,1,Rent,Apartment,Female,Biking,74356
-20,Bachelor's,Finance,4,Urban,46,Married,Full-time,3,Rent,Single-family home,Male,Car,68022
-29,Master's,Others,0,Urban,22,Married,Full-time,5,Own,Apartment,Female,Public transit,64884
-67,Master's,Technology,0,Urban,2,Married,Full-time,6,Rent,Single-family home,Male,Public transit,333366
-64,High School,Others,5,Urban,12,Married,Part-time,2,Own,Single-family home,Male,Public transit,128293
-18,Bachelor's,Healthcare,0,Rural,11,Married,Full-time,3,Rent,Single-family home,Male,Public transit,265433
-54,Master's,Finance,3,Suburban,14,Married,Full-time,1,Own,Single-family home,Male,Biking,74620
-53,High School,Technology,3,Rural,43,Married,Part-time,3,Own,Single-family home,Female,Car,4793192
-70,Bachelor's,Technology,3,Suburban,29,Married,Full-time,5,Own,Single-family home,Male,Public transit,75114
-64,Bachelor's,Technology,3,Urban,31,Married,Part-time,1,Own,Single-family home,Female,Biking,72276
-19,Master's,Education,0,Urban,19,Single,Full-time,4,Rent,Single-family home,Female,Biking,1183366
-19,High School,Others,4,Suburban,23,Married,Part-time,1,Rent,Apartment,Male,Walking,897952
-25,Bachelor's,Technology,2,Urban,9,Married,Part-time,1,Own,Single-family home,Male,Car,73468
-42,Master's,Education,1,Urban,20,Single,Part-time,6,Own,Townhouse,Male,Walking,73970
-68,Master's,Healthcare,0,Urban,10,Single,Part-time,2,Own,Apartment,Female,Public transit,72064
-45,Bachelor's,Others,2,Urban,41,Married,Full-time,7,Own,Apartment,Male,Biking,66772
-22,Master's,Technology,1,Urban,6,Single,Full-time,4,Own,Townhouse,Female,Public transit,71860
-37,Master's,Education,2,Urban,6,Married,Full-time,1,Own,Apartment,Female,Public transit,1692173
-54,Bachelor's,Technology,5,Urban,10,Single,Full-time,3,Own,Apartment,Male,Biking,67804
-63,Master's,Technology,2,Urban,49,Single,Self-employed,4,Rent,Single-family home,Male,Public transit,69368
-38,High School,Education,0,Urban,5,Single,Full-time,3,Own,Townhouse,Male,Car,74670
-38,Bachelor's,Others,5,Urban,33,Divorced,Part-time,6,Own,Single-family home,Male,Biking,69298
-43,Master's,Finance,1,Urban,41,Single,Part-time,3,Own,Apartment,Male,Car,74608
-63,Bachelor's,Healthcare,1,Suburban,20,Single,Part-time,3,Own,Single-family home,Female,Walking,71978
-29,Bachelor's,Others,2,Urban,43,Married,Part-time,6,Own,Apartment,Female,Public transit,65958
-61,Bachelor's,Healthcare,0,Urban,16,Single,Self-employed,1,Own,Single-family home,Female,Biking,75378
-51,Master's,Others,3,Suburban,23,Married,Part-time,4,Own,Apartment,Female,Public transit,510452
-21,Bachelor's,Healthcare,4,Urban,0,Married,Part-time,6,Rent,Apartment,Male,Public transit,75006
-34,Bachelor's,Education,0,Urban,44,Single,Part-time,6,Own,Single-family home,Male,Biking,75456
-36,High School,Education,3,Rural,17,Married,Self-employed,2,Rent,Apartment,Male,Biking,72524
-70,High School,Healthcare,5,Urban,12,Single,Full-time,7,Rent,Apartment,Male,Public transit,67366
-39,High School,Education,2,Rural,29,Single,Self-employed,1,Own,Single-family home,Female,Walking,5710217
-69,High School,Technology,2,Urban,47,Married,Part-time,1,Own,Single-family home,Male,Car,73928
-56,High School,Education,2,Urban,4,Single,Full-time,6,Rent,Apartment,Male,Public transit,45745
-56,Master's,Education,5,Urban,43,Single,Part-time,5,Own,Apartment,Female,Public transit,9011886
-29,High School,Finance,1,Urban,45,Married,Part-time,1,Rent,Single-family home,Female,Car,65084
-29,Doctorate,Others,2,Urban,42,Single,Full-time,2,Own,Townhouse,Male,Biking,67326
-61,Doctorate,Technology,3,Urban,6,Married,Full-time,2,Rent,Apartment,Female,Public transit,73562
-42,Master's,Others,5,Urban,13,Divorced,Full-time,4,Own,Apartment,Male,Car,2368468
-69,Master's,Education,0,Urban,4,Single,Full-time,2,Rent,Townhouse,Female,Public transit,181376
-32,High School,Healthcare,2,Urban,33,Married,Part-time,6,Own,Apartment,Male,Car,71418
-49,Bachelor's,Finance,1,Urban,25,Married,Full-time,6,Rent,Single-family home,Male,Car,71478
-51,Master's,Others,0,Urban,39,Married,Full-time,5,Own,Apartment,Female,Public transit,72824
-35,High School,Finance,1,Urban,20,Divorced,Part-time,5,Own,Apartment,Female,Public transit,68278
-31,High School,Technology,4,Urban,48,Single,Full-time,7,Rent,Apartment,Male,Public transit,465266
-56,High School,Others,1,Urban,30,Married,Full-time,6,Own,Single-family home,Male,Walking,71918
-67,High School,Education,2,Rural,31,Married,Full-time,4,Rent,Single-family home,Male,Car,76459
-19,Bachelor's,Others,2,Urban,32,Single,Part-time,3,Own,Apartment,Female,Public transit,5532664
-30,High School,Technology,0,Rural,43,Married,Full-time,1,Own,Single-family home,Male,Biking,67594
-24,Master's,Technology,3,Urban,36,Married,Full-time,3,Rent,Apartment,Female,Walking,3429094
-60,Master's,Education,1,Urban,39,Single,Full-time,4,Own,Townhouse,Female,Public transit,57194
-65,Bachelor's,Technology,3,Urban,20,Single,Full-time,5,Rent,Townhouse,Male,Car,67456
-34,Bachelor's,Finance,0,Urban,46,Married,Full-time,2,Rent,Townhouse,Female,Public transit,67924
-53,Bachelor's,Others,5,Urban,48,Single,Part-time,6,Own,Townhouse,Female,Public transit,67866
-43,Bachelor's,Healthcare,5,Suburban,32,Single,Part-time,3,Own,Single-family home,Female,Walking,67918
-43,High School,Technology,5,Urban,0,Married,Full-time,2,Rent,Townhouse,Male,Car,69096
-19,Bachelor's,Education,5,Suburban,27,Single,Full-time,5,Rent,Single-family home,Female,Public transit,67705
-49,Bachelor's,Education,0,Urban,33,Married,Self-employed,2,Rent,Townhouse,Female,Car,72920
-66,Master's,Education,5,Suburban,28,Married,Full-time,3,Own,Apartment,Female,Biking,3514780
-22,High School,Finance,3,Urban,32,Married,Self-employed,2,Own,Single-family home,Female,Public transit,113891
-22,Bachelor's,Technology,5,Urban,25,Single,Full-time,4,Own,Single-family home,Female,Public transit,66710
-35,High School,Technology,2,Urban,21,Married,Full-time,5,Rent,Townhouse,Female,Walking,9795312
-43,Master's,Healthcare,3,Urban,9,Single,Self-employed,2,Own,Single-family home,Female,Public transit,71676
-52,Master's,Technology,3,Urban,45,Single,Full-time,7,Rent,Single-family home,Female,Public transit,74054
-64,Bachelor's,Technology,3,Urban,33,Married,Self-employed,1,Own,Apartment,Male,Walking,67490
-24,Bachelor's,Technology,2,Urban,20,Married,Part-time,6,Own,Single-family home,Female,Car,69090
-37,Master's,Education,3,Urban,23,Single,Part-time,1,Own,Townhouse,Male,Walking,67334
-51,Master's,Education,0,Urban,16,Married,Full-time,6,Own,Apartment,Male,Car,70110
-68,Master's,Healthcare,3,Urban,44,Single,Self-employed,2,Rent,Apartment,Male,Biking,72390
-52,High School,Others,4,Urban,37,Married,Self-employed,6,Own,Apartment,Male,Public transit,73638
-38,Bachelor's,Others,3,Urban,43,Single,Self-employed,4,Own,Single-family home,Male,Public transit,70028
-68,Bachelor's,Technology,4,Suburban,21,Married,Self-employed,2,Own,Single-family home,Male,Car,72890
-65,High School,Education,1,Urban,31,Married,Self-employed,7,Own,Apartment,Male,Public transit,72530
-30,High School,Technology,0,Urban,2,Single,Part-time,7,Own,Apartment,Male,Car,146820
-42,Master's,Healthcare,4,Urban,19,Married,Self-employed,7,Rent,Single-family home,Male,Car,5994343
-64,Bachelor's,Finance,2,Urban,10,Married,Full-time,6,Own,Townhouse,Female,Car,66666
-45,Bachelor's,Education,0,Suburban,36,Married,Full-time,7,Own,Single-family home,Female,Car,71060
-19,High School,Technology,0,Urban,43,Married,Full-time,1,Rent,Apartment,Female,Car,3516107
-28,High School,Healthcare,2,Urban,41,Single,Full-time,7,Rent,Townhouse,Male,Public transit,66700
-54,Bachelor's,Others,4,Urban,45,Married,Full-time,5,Rent,Single-family home,Female,Biking,414718
-70,Master's,Healthcare,0,Urban,39,Married,Part-time,7,Rent,Apartment,Male,Public transit,514515
-45,Bachelor's,Healthcare,3,Urban,9,Married,Self-employed,2,Own,Single-family home,Female,Car,68802
-49,Master's,Healthcare,1,Urban,40,Single,Part-time,1,Rent,Apartment,Male,Car,441940
-57,High School,Others,4,Urban,5,Married,Part-time,1,Own,Apartment,Male,Public transit,4511098
-19,Bachelor's,Healthcare,0,Rural,28,Married,Full-time,1,Rent,Townhouse,Male,Car,74052
-39,High School,Healthcare,3,Suburban,23,Single,Full-time,2,Rent,Apartment,Male,Car,68088
-40,Bachelor's,Others,3,Urban,7,Single,Full-time,7,Own,Single-family home,Male,Car,3381177
-24,Bachelor's,Technology,2,Suburban,38,Single,Full-time,7,Own,Single-family home,Female,Public transit,66470
-68,Doctorate,Healthcare,3,Urban,11,Single,Part-time,1,Rent,Single-family home,Male,Biking,9859518
-23,Bachelor's,Finance,4,Rural,30,Married,Part-time,1,Rent,Single-family home,Male,Public transit,1226890
-58,High School,Healthcare,0,Suburban,12,Single,Part-time,2,Rent,Single-family home,Male,Biking,72618
-60,Bachelor's,Technology,1,Urban,26,Married,Part-time,3,Own,Apartment,Male,Walking,66752
-26,High School,Technology,0,Urban,28,Married,Full-time,2,Own,Apartment,Female,Public transit,67632
-64,High School,Technology,4,Urban,8,Single,Full-time,7,Own,Townhouse,Male,Biking,70714
-42,Bachelor's,Finance,4,Rural,0,Married,Self-employed,7,Rent,Single-family home,Female,Walking,67414
-28,High School,Healthcare,2,Urban,31,Single,Part-time,5,Own,Single-family home,Male,Car,68990
-47,Bachelor's,Healthcare,1,Urban,37,Single,Part-time,3,Rent,Townhouse,Female,Car,9584866
-62,High School,Healthcare,1,Urban,29,Married,Full-time,2,Own,Apartment,Male,Public transit,69498
-49,Bachelor's,Education,3,Suburban,36,Married,Full-time,3,Own,Apartment,Male,Public transit,5990903
-46,Bachelor's,Education,5,Urban,41,Married,Part-time,7,Own,Single-family home,Female,Public transit,69052
-32,Master's,Healthcare,1,Urban,45,Married,Full-time,3,Rent,Apartment,Male,Biking,5747416
-59,Master's,Technology,3,Suburban,28,Single,Full-time,7,Rent,Single-family home,Female,Walking,71706
-18,Bachelor's,Finance,3,Urban,38,Married,Full-time,1,Rent,Single-family home,Female,Walking,70440
-29,High School,Others,0,Suburban,3,Married,Part-time,2,Rent,Townhouse,Male,Public transit,7640395
-48,Bachelor's,Technology,3,Suburban,24,Single,Part-time,2,Own,Single-family home,Female,Car,75440
-62,Bachelor's,Healthcare,2,Suburban,39,Single,Full-time,1,Rent,Townhouse,Female,Biking,71140
-26,Doctorate,Healthcare,5,Urban,49,Single,Self-employed,3,Own,Apartment,Female,Car,68838
-56,Master's,Technology,5,Urban,21,Married,Full-time,7,Own,Apartment,Male,Public transit,72510
-57,High School,Technology,3,Urban,33,Married,Full-time,7,Rent,Apartment,Female,Public transit,265125
-47,Bachelor's,Technology,2,Urban,16,Single,Full-time,4,Own,Apartment,Female,Public transit,69132
-20,Bachelor's,Others,1,Urban,29,Single,Full-time,1,Rent,Townhouse,Female,Biking,74584
-29,High School,Finance,0,Rural,3,Single,Full-time,1,Own,Apartment,Female,Biking,41246
-41,Bachelor's,Healthcare,2,Rural,8,Married,Full-time,5,Own,Apartment,Female,Public transit,38764
-47,Bachelor's,Technology,3,Suburban,36,Married,Part-time,1,Own,Townhouse,Male,Biking,72086
-23,Master's,Healthcare,1,Suburban,27,Married,Self-employed,4,Own,Single-family home,Male,Public transit,70928
-42,Bachelor's,Others,5,Urban,6,Single,Full-time,3,Own,Single-family home,Female,Biking,519258
-30,High School,Others,0,Urban,26,Married,Full-time,3,Own,Townhouse,Male,Car,75206
-47,High School,Healthcare,0,Suburban,28,Single,Self-employed,1,Rent,Townhouse,Female,Biking,69838
-62,High School,Others,5,Urban,12,Single,Part-time,3,Own,Apartment,Female,Car,75448
-54,Bachelor's,Finance,1,Urban,10,Married,Full-time,1,Own,Single-family home,Male,Public transit,69104
-63,Bachelor's,Finance,1,Urban,48,Divorced,Full-time,2,Own,Apartment,Male,Biking,49300
-48,Master's,Technology,0,Urban,10,Divorced,Full-time,6,Own,Apartment,Female,Biking,68014
-50,Bachelor's,Technology,5,Rural,41,Married,Full-time,7,Own,Apartment,Female,Public transit,5908245
-51,Master's,Healthcare,3,Urban,16,Single,Full-time,7,Own,Single-family home,Female,Public transit,71192
-34,Bachelor's,Healthcare,4,Rural,39,Single,Full-time,3,Own,Single-family home,Male,Walking,67400
-66,Master's,Technology,1,Urban,36,Single,Full-time,1,Own,Townhouse,Male,Public transit,7433178
-54,Doctorate,Finance,0,Urban,11,Single,Part-time,1,Rent,Apartment,Female,Public transit,64912
-62,Bachelor's,Technology,3,Rural,19,Married,Full-time,7,Rent,Apartment,Female,Car,116058
-70,High School,Technology,0,Urban,50,Married,Full-time,7,Rent,Single-family home,Female,Car,72054
-18,Bachelor's,Finance,4,Urban,12,Married,Part-time,4,Own,Single-family home,Male,Biking,73636
-45,Master's,Others,4,Urban,41,Married,Full-time,6,Rent,Single-family home,Female,Car,948392
-26,Master's,Healthcare,5,Urban,49,Single,Part-time,2,Rent,Apartment,Male,Public transit,82154
-37,Bachelor's,Education,5,Rural,24,Divorced,Full-time,7,Own,Townhouse,Male,Walking,1667638
-28,Bachelor's,Others,5,Urban,18,Married,Part-time,2,Own,Apartment,Female,Biking,141273
-67,High School,Healthcare,5,Urban,32,Married,Part-time,2,Own,Apartment,Female,Biking,2053628
-38,Bachelor's,Healthcare,5,Urban,21,Married,Self-employed,2,Rent,Single-family home,Female,Biking,1395972
-57,High School,Finance,0,Rural,4,Married,Self-employed,3,Rent,Townhouse,Male,Public transit,7536670
-38,High School,Others,1,Urban,9,Married,Full-time,3,Rent,Townhouse,Female,Walking,65456
-47,Master's,Healthcare,4,Urban,1,Single,Part-time,6,Own,Single-family home,Male,Walking,38700
-37,Bachelor's,Finance,5,Urban,33,Married,Self-employed,6,Own,Townhouse,Male,Public transit,67716
-54,Master's,Healthcare,1,Urban,12,Married,Part-time,7,Rent,Single-family home,Male,Public transit,206506
-45,Bachelor's,Others,3,Suburban,50,Divorced,Part-time,5,Rent,Single-family home,Female,Walking,98860
-64,High School,Others,2,Urban,21,Single,Self-employed,3,Own,Townhouse,Male,Public transit,67358
-46,Bachelor's,Finance,1,Suburban,50,Married,Self-employed,2,Rent,Apartment,Male,Biking,75458
-33,Bachelor's,Others,5,Urban,29,Single,Full-time,5,Own,Single-family home,Female,Walking,65152
-41,Bachelor's,Technology,3,Urban,22,Married,Part-time,7,Own,Apartment,Female,Car,71166
-26,Doctorate,Healthcare,5,Rural,33,Single,Full-time,4,Rent,Single-family home,Female,Public transit,74986
-38,Doctorate,Healthcare,2,Urban,30,Married,Part-time,5,Rent,Apartment,Male,Biking,73682
-41,Master's,Finance,3,Urban,20,Married,Full-time,7,Rent,Single-family home,Female,Car,70598
-61,High School,Finance,4,Urban,7,Single,Full-time,7,Own,Single-family home,Male,Walking,65742
-33,High School,Technology,3,Suburban,47,Married,Full-time,2,Own,Apartment,Female,Car,73576
-50,High School,Healthcare,5,Urban,9,Single,Self-employed,3,Own,Apartment,Female,Biking,1664859
-51,High School,Healthcare,5,Rural,0,Married,Part-time,7,Own,Single-family home,Male,Public transit,65114
-45,High School,Education,4,Urban,42,Single,Self-employed,7,Own,Apartment,Female,Car,72618
-54,Bachelor's,Others,1,Urban,12,Single,Full-time,6,Own,Townhouse,Female,Car,66296
-63,High School,Others,2,Urban,42,Single,Full-time,7,Rent,Townhouse,Male,Car,2998435
-30,Bachelor's,Healthcare,3,Suburban,14,Married,Full-time,5,Rent,Single-family home,Male,Public transit,180083
-59,Bachelor's,Others,5,Suburban,27,Married,Part-time,7,Rent,Townhouse,Male,Public transit,68344
-54,High School,Technology,5,Rural,39,Single,Full-time,7,Own,Apartment,Male,Car,1411985
-52,High School,Finance,5,Urban,36,Divorced,Full-time,1,Rent,Apartment,Male,Public transit,591121
-50,Bachelor's,Education,5,Urban,6,Single,Full-time,4,Rent,Apartment,Male,Walking,243355
-32,Master's,Healthcare,3,Urban,17,Married,Part-time,1,Rent,Townhouse,Male,Car,590115
-45,Doctorate,Finance,1,Urban,2,Married,Full-time,5,Own,Apartment,Male,Biking,140257
-23,Bachelor's,Others,0,Urban,17,Divorced,Part-time,2,Own,Single-family home,Male,Public transit,67182
-20,Master's,Healthcare,5,Urban,22,Single,Self-employed,6,Rent,Apartment,Female,Public transit,566601
-29,High School,Healthcare,5,Urban,8,Married,Full-time,4,Own,Townhouse,Male,Public transit,69284
-47,Bachelor's,Healthcare,1,Suburban,8,Married,Full-time,5,Own,Single-family home,Male,Public transit,74600
-54,High School,Healthcare,2,Suburban,36,Single,Full-time,5,Rent,Single-family home,Female,Public transit,1468838
-18,Bachelor's,Technology,3,Urban,46,Single,Full-time,2,Own,Apartment,Female,Biking,68782
-38,Master's,Finance,4,Urban,22,Single,Self-employed,3,Own,Single-family home,Male,Car,815891
-32,High School,Education,3,Urban,22,Married,Full-time,6,Own,Single-family home,Male,Car,68070
-41,Master's,Technology,5,Urban,35,Divorced,Full-time,7,Own,Single-family home,Female,Public transit,68604
-49,High School,Technology,0,Urban,18,Married,Part-time,4,Own,Single-family home,Female,Biking,71714
-24,Bachelor's,Others,4,Urban,20,Married,Full-time,6,Own,Apartment,Male,Biking,4034133
-46,Bachelor's,Healthcare,3,Urban,19,Single,Full-time,5,Own,Single-family home,Male,Biking,66778
-28,High School,Healthcare,0,Rural,5,Single,Full-time,2,Rent,Single-family home,Female,Public transit,70372
-22,High School,Others,4,Urban,35,Married,Full-time,4,Rent,Single-family home,Female,Public transit,57087
-53,Master's,Technology,5,Urban,41,Divorced,Full-time,4,Own,Single-family home,Female,Public transit,66808
-53,Bachelor's,Education,5,Urban,48,Single,Full-time,3,Own,Single-family home,Female,Biking,66082
-34,Bachelor's,Healthcare,5,Urban,28,Divorced,Self-employed,7,Own,Single-family home,Female,Biking,72762
-45,Bachelor's,Technology,5,Suburban,11,Married,Part-time,4,Rent,Apartment,Male,Public transit,72922
-42,Bachelor's,Healthcare,1,Urban,47,Married,Self-employed,5,Own,Single-family home,Male,Biking,433989
-67,High School,Finance,1,Urban,24,Married,Full-time,4,Rent,Single-family home,Male,Car,73890
-49,High School,Finance,1,Urban,33,Single,Part-time,2,Rent,Apartment,Female,Car,532462
-70,High School,Finance,2,Urban,39,Single,Full-time,6,Own,Apartment,Female,Walking,74184
-36,Bachelor's,Healthcare,5,Urban,32,Single,Part-time,3,Rent,Townhouse,Female,Car,535706
-51,Bachelor's,Education,4,Urban,8,Married,Full-time,2,Own,Townhouse,Male,Car,71214
-29,High School,Healthcare,1,Urban,3,Divorced,Full-time,4,Own,Single-family home,Male,Car,3287563
-51,Bachelor's,Education,5,Rural,48,Single,Self-employed,1,Own,Apartment,Male,Public transit,1974587
-31,Bachelor's,Healthcare,5,Urban,1,Married,Part-time,1,Own,Single-family home,Male,Public transit,70788
-59,Bachelor's,Healthcare,0,Urban,49,Single,Part-time,4,Own,Single-family home,Female,Biking,70196
-36,Master's,Finance,4,Suburban,45,Married,Full-time,2,Own,Apartment,Female,Public transit,69636
-57,Master's,Healthcare,3,Urban,47,Single,Full-time,7,Own,Townhouse,Female,Public transit,199203
-33,Bachelor's,Others,1,Urban,50,Single,Full-time,5,Rent,Single-family home,Female,Car,4960168
-25,Bachelor's,Technology,3,Rural,41,Married,Self-employed,2,Own,Single-family home,Female,Biking,66218
-59,Master's,Healthcare,0,Urban,1,Married,Part-time,1,Own,Single-family home,Female,Walking,917587
-39,Bachelor's,Others,4,Urban,37,Single,Self-employed,4,Rent,Apartment,Female,Public transit,184656
-37,Bachelor's,Technology,1,Urban,11,Married,Self-employed,7,Rent,Single-family home,Female,Car,65528
-26,Doctorate,Education,4,Suburban,35,Single,Part-time,2,Own,Apartment,Male,Public transit,69374
-59,Bachelor's,Healthcare,5,Urban,19,Single,Full-time,4,Rent,Apartment,Female,Biking,67706
-56,Master's,Finance,3,Urban,25,Single,Full-time,1,Own,Apartment,Female,Car,67570
-49,High School,Finance,5,Suburban,42,Single,Full-time,7,Own,Apartment,Female,Walking,69582
-43,High School,Others,3,Urban,38,Married,Full-time,2,Own,Apartment,Male,Walking,70156
-24,Doctorate,Healthcare,5,Urban,27,Married,Part-time,4,Rent,Single-family home,Female,Biking,70160
-64,High School,Others,4,Urban,48,Married,Part-time,5,Rent,Apartment,Male,Biking,74950
-60,Bachelor's,Education,4,Suburban,17,Married,Part-time,7,Own,Townhouse,Male,Car,3761922
-56,Master's,Others,1,Suburban,13,Single,Full-time,1,Own,Apartment,Male,Public transit,6334239
-28,Master's,Technology,3,Urban,18,Married,Full-time,2,Own,Townhouse,Female,Biking,37268
-34,High School,Finance,0,Urban,44,Single,Full-time,7,Rent,Apartment,Female,Public transit,70468
-48,High School,Healthcare,1,Suburban,39,Single,Full-time,1,Own,Apartment,Female,Car,66740
-37,High School,Finance,5,Urban,0,Married,Self-employed,3,Own,Apartment,Female,Biking,71140
-58,Master's,Healthcare,4,Suburban,39,Married,Full-time,2,Own,Townhouse,Female,Biking,65854
-25,Master's,Education,1,Urban,50,Married,Full-time,1,Rent,Single-family home,Female,Walking,68826
-47,High School,Technology,4,Urban,33,Married,Self-employed,3,Rent,Townhouse,Male,Public transit,69266
-60,Master's,Education,0,Urban,12,Single,Full-time,7,Rent,Single-family home,Male,Car,446360
-48,Bachelor's,Finance,3,Urban,47,Married,Part-time,4,Own,Apartment,Female,Biking,75042
-70,High School,Healthcare,4,Suburban,22,Married,Part-time,1,Own,Single-family home,Male,Walking,1277738
-63,Master's,Education,4,Urban,43,Single,Full-time,2,Own,Apartment,Female,Public transit,74624
-35,Bachelor's,Healthcare,1,Urban,11,Married,Full-time,1,Own,Apartment,Male,Public transit,65544
-38,Bachelor's,Others,4,Urban,31,Married,Part-time,2,Own,Townhouse,Male,Public transit,69354
-55,High School,Healthcare,2,Urban,4,Married,Full-time,3,Rent,Apartment,Male,Car,243122
-67,Master's,Healthcare,4,Urban,34,Married,Full-time,2,Rent,Single-family home,Male,Car,3781994
-47,High School,Others,5,Urban,46,Married,Full-time,3,Rent,Single-family home,Female,Car,105044
-33,Bachelor's,Others,2,Urban,24,Single,Full-time,7,Own,Single-family home,Female,Biking,69972
-46,Master's,Healthcare,3,Urban,37,Single,Full-time,7,Rent,Apartment,Male,Biking,752280
-34,Master's,Others,5,Urban,26,Married,Full-time,1,Own,Apartment,Female,Walking,69040
-41,Master's,Healthcare,1,Urban,37,Married,Part-time,5,Own,Apartment,Male,Car,69826
-37,Bachelor's,Technology,3,Urban,9,Single,Self-employed,6,Own,Single-family home,Male,Public transit,64884
-59,Master's,Education,3,Rural,38,Married,Part-time,6,Rent,Apartment,Male,Biking,66324
-63,Bachelor's,Healthcare,0,Urban,10,Single,Full-time,4,Own,Single-family home,Female,Biking,68392
-46,High School,Others,4,Rural,33,Single,Full-time,2,Own,Townhouse,Male,Car,2238203
-60,High School,Healthcare,2,Urban,37,Married,Part-time,2,Rent,Townhouse,Female,Car,1126188
-55,Bachelor's,Technology,0,Urban,43,Married,Part-time,2,Own,Townhouse,Male,Biking,107067
-29,Master's,Finance,3,Urban,13,Single,Full-time,2,Own,Townhouse,Female,Car,131230
-52,Bachelor's,Technology,5,Urban,5,Married,Self-employed,3,Rent,Apartment,Male,Public transit,72568
-32,Bachelor's,Finance,2,Urban,41,Single,Part-time,2,Rent,Apartment,Male,Car,1171298
-65,High School,Technology,1,Rural,50,Single,Part-time,3,Rent,Townhouse,Male,Public transit,72390
-33,Bachelor's,Technology,4,Urban,36,Married,Part-time,3,Own,Single-family home,Male,Biking,71070
-27,Bachelor's,Education,3,Urban,19,Married,Full-time,5,Rent,Apartment,Male,Public transit,66014
-29,Master's,Finance,4,Urban,32,Married,Full-time,7,Own,Apartment,Male,Public transit,68704
-33,Master's,Healthcare,1,Urban,17,Single,Full-time,3,Own,Single-family home,Male,Public transit,72530
-32,Bachelor's,Healthcare,0,Urban,39,Married,Full-time,7,Own,Apartment,Male,Biking,67614
-32,High School,Healthcare,4,Urban,2,Married,Full-time,7,Own,Townhouse,Male,Car,832347
-56,Doctorate,Finance,2,Urban,41,Single,Full-time,4,Rent,Townhouse,Female,Public transit,4324067
-65,Bachelor's,Technology,3,Urban,31,Divorced,Full-time,5,Own,Apartment,Female,Public transit,71122
-22,Bachelor's,Technology,3,Urban,18,Single,Full-time,1,Own,Townhouse,Female,Public transit,70158
-26,High School,Education,3,Urban,37,Married,Part-time,4,Own,Apartment,Male,Walking,1253718
-38,Bachelor's,Healthcare,4,Suburban,9,Single,Full-time,3,Own,Apartment,Female,Car,446952
-28,High School,Finance,5,Urban,43,Married,Full-time,4,Own,Single-family home,Female,Car,71440
-25,Doctorate,Healthcare,0,Urban,22,Single,Part-time,5,Own,Single-family home,Male,Car,582903
-66,High School,Technology,3,Urban,16,Married,Full-time,2,Own,Single-family home,Female,Walking,68698
-42,High School,Others,1,Urban,13,Single,Full-time,7,Rent,Apartment,Male,Walking,68596
-26,Bachelor's,Technology,3,Urban,29,Married,Part-time,7,Rent,Townhouse,Male,Car,5350468
-49,Bachelor's,Finance,1,Suburban,8,Married,Self-employed,3,Own,Single-family home,Female,Biking,71212
-46,Master's,Technology,2,Urban,34,Single,Part-time,4,Own,Single-family home,Male,Public transit,72204
-68,Doctorate,Technology,4,Urban,13,Married,Self-employed,7,Own,Single-family home,Male,Car,73138
-64,Bachelor's,Finance,1,Suburban,45,Married,Full-time,5,Rent,Single-family home,Male,Car,74762
-38,High School,Technology,5,Rural,6,Single,Self-employed,7,Own,Single-family home,Male,Public transit,278003
-29,Master's,Others,2,Urban,47,Married,Part-time,4,Rent,Single-family home,Female,Car,402736
-44,Master's,Education,4,Suburban,44,Married,Full-time,4,Own,Apartment,Female,Public transit,70518
-20,Master's,Education,1,Urban,43,Married,Full-time,3,Rent,Apartment,Male,Public transit,876480
-41,Master's,Technology,4,Urban,28,Married,Self-employed,4,Rent,Single-family home,Male,Biking,66380
-57,Master's,Healthcare,3,Urban,18,Married,Part-time,2,Own,Townhouse,Female,Car,74616
-53,Bachelor's,Technology,3,Urban,44,Married,Part-time,7,Rent,Apartment,Female,Biking,201683
-23,Bachelor's,Healthcare,3,Urban,28,Married,Self-employed,1,Own,Townhouse,Male,Public transit,58553
-30,Master's,Healthcare,2,Urban,16,Married,Full-time,4,Own,Single-family home,Female,Public transit,73536
-58,Bachelor's,Healthcare,4,Rural,36,Divorced,Full-time,3,Rent,Townhouse,Male,Car,5931345
-18,Master's,Education,3,Urban,3,Married,Part-time,6,Rent,Apartment,Male,Car,36863
-54,Master's,Technology,1,Urban,18,Married,Full-time,1,Rent,Townhouse,Male,Public transit,66912
-35,High School,Healthcare,4,Urban,18,Divorced,Part-time,3,Own,Single-family home,Female,Car,3799080
-41,Master's,Healthcare,4,Rural,39,Single,Full-time,3,Own,Single-family home,Female,Walking,65260
-38,Bachelor's,Healthcare,5,Suburban,47,Married,Full-time,5,Own,Single-family home,Female,Car,65634
-57,High School,Others,2,Urban,5,Divorced,Full-time,7,Rent,Single-family home,Male,Car,6758509
-55,Bachelor's,Education,5,Suburban,40,Married,Full-time,7,Own,Apartment,Female,Car,3407100
-35,Bachelor's,Others,5,Urban,1,Married,Full-time,7,Own,Apartment,Male,Car,579302
-56,Bachelor's,Technology,4,Urban,2,Married,Self-employed,3,Own,Townhouse,Male,Car,65136
-18,Doctorate,Healthcare,3,Urban,9,Married,Full-time,3,Own,Apartment,Female,Public transit,71036
-38,Bachelor's,Others,1,Urban,4,Single,Part-time,5,Own,Townhouse,Male,Public transit,3564037
-60,High School,Healthcare,1,Urban,39,Married,Full-time,3,Rent,Single-family home,Male,Biking,3756125
-32,Bachelor's,Healthcare,1,Urban,1,Single,Self-employed,1,Rent,Single-family home,Female,Walking,65636
-43,High School,Finance,0,Suburban,44,Divorced,Full-time,3,Rent,Townhouse,Female,Car,70380
-30,High School,Healthcare,4,Urban,43,Married,Part-time,2,Rent,Single-family home,Male,Public transit,70316
-67,Bachelor's,Technology,0,Urban,42,Married,Self-employed,1,Own,Apartment,Male,Public transit,121305
-20,Bachelor's,Technology,3,Urban,15,Married,Full-time,3,Own,Apartment,Male,Car,66398
-35,High School,Education,3,Urban,12,Single,Self-employed,6,Own,Single-family home,Female,Public transit,71818
-60,High School,Technology,1,Urban,5,Single,Part-time,6,Own,Single-family home,Female,Biking,7231774
-20,Bachelor's,Education,0,Rural,26,Single,Self-employed,3,Own,Apartment,Male,Car,5390982
-56,Master's,Healthcare,2,Suburban,16,Married,Full-time,3,Rent,Single-family home,Female,Biking,1635819
-37,High School,Healthcare,0,Urban,45,Divorced,Part-time,3,Own,Apartment,Female,Public transit,68038
-52,Bachelor's,Technology,5,Urban,6,Divorced,Part-time,3,Own,Apartment,Female,Biking,237608
-27,Master's,Finance,2,Urban,30,Single,Self-employed,6,Rent,Townhouse,Female,Car,71944
-45,Master's,Finance,3,Urban,49,Divorced,Self-employed,4,Own,Single-family home,Male,Biking,74170
-22,High School,Finance,3,Urban,46,Married,Part-time,2,Rent,Single-family home,Female,Public transit,3073196
-69,High School,Finance,5,Rural,43,Single,Self-employed,4,Own,Apartment,Male,Biking,74400
-52,High School,Others,5,Urban,6,Single,Part-time,4,Own,Single-family home,Female,Car,68346
-49,Bachelor's,Finance,2,Urban,49,Single,Part-time,1,Own,Townhouse,Female,Public transit,386360
-60,Bachelor's,Education,3,Suburban,35,Single,Part-time,4,Own,Single-family home,Male,Walking,4671851
-19,Bachelor's,Finance,3,Suburban,33,Married,Full-time,6,Own,Apartment,Male,Car,65910
-26,Bachelor's,Healthcare,5,Urban,45,Married,Part-time,7,Own,Apartment,Female,Walking,66506
-27,Bachelor's,Others,1,Urban,31,Single,Full-time,2,Rent,Apartment,Male,Public transit,126324
-28,Bachelor's,Education,5,Urban,29,Single,Part-time,6,Own,Apartment,Female,Biking,811885
-19,Bachelor's,Technology,4,Urban,46,Single,Full-time,7,Rent,Single-family home,Male,Biking,74122
-50,Bachelor's,Healthcare,3,Urban,18,Single,Part-time,4,Own,Apartment,Female,Public transit,3031944
-70,High School,Technology,4,Urban,29,Married,Part-time,5,Rent,Single-family home,Female,Car,113686
-30,High School,Finance,4,Urban,47,Divorced,Full-time,7,Own,Single-family home,Male,Public transit,73848
-52,Master's,Technology,1,Urban,42,Married,Full-time,2,Own,Single-family home,Male,Biking,567320
-52,Bachelor's,Technology,0,Urban,34,Divorced,Full-time,5,Own,Single-family home,Male,Public transit,47314
-44,Master's,Healthcare,0,Urban,34,Married,Full-time,5,Own,Single-family home,Female,Car,72598
-48,Bachelor's,Healthcare,4,Urban,29,Married,Part-time,2,Rent,Single-family home,Male,Car,79533
-19,High School,Technology,0,Urban,16,Single,Self-employed,7,Rent,Single-family home,Male,Biking,69554
-21,Bachelor's,Others,4,Urban,6,Single,Full-time,6,Own,Townhouse,Male,Car,7600539
-34,High School,Education,0,Urban,7,Divorced,Full-time,6,Own,Apartment,Female,Public transit,717209
-26,Bachelor's,Technology,1,Suburban,36,Married,Self-employed,7,Rent,Single-family home,Male,Public transit,70802
-69,Master's,Technology,3,Suburban,39,Married,Part-time,6,Rent,Single-family home,Male,Car,5794992
-18,Master's,Healthcare,5,Urban,4,Divorced,Full-time,6,Own,Townhouse,Male,Public transit,71614
-52,Master's,Healthcare,1,Suburban,41,Married,Self-employed,3,Rent,Apartment,Male,Public transit,69144
-35,Master's,Finance,3,Urban,35,Single,Full-time,3,Rent,Townhouse,Male,Car,65418
-62,Bachelor's,Technology,3,Urban,42,Single,Full-time,7,Rent,Single-family home,Male,Biking,65196
-28,Master's,Technology,1,Rural,17,Divorced,Self-employed,7,Own,Townhouse,Male,Public transit,67472
-47,Bachelor's,Finance,2,Suburban,39,Single,Full-time,1,Own,Single-family home,Female,Car,65642
-33,High School,Healthcare,0,Suburban,22,Divorced,Full-time,3,Rent,Single-family home,Male,Public transit,1068169
-56,Bachelor's,Healthcare,4,Suburban,4,Married,Part-time,4,Own,Single-family home,Female,Biking,40801
-67,Bachelor's,Education,0,Urban,24,Married,Part-time,7,Own,Townhouse,Male,Public transit,67520
-22,High School,Technology,4,Suburban,8,Single,Part-time,4,Rent,Single-family home,Female,Car,67378
-58,Master's,Education,1,Urban,3,Single,Full-time,1,Rent,Single-family home,Female,Car,72944
-45,High School,Technology,1,Urban,18,Married,Full-time,1,Own,Single-family home,Male,Car,68752
-39,Bachelor's,Technology,0,Urban,45,Single,Part-time,3,Rent,Apartment,Male,Car,1096032
-23,Bachelor's,Healthcare,3,Urban,42,Divorced,Part-time,5,Own,Apartment,Female,Walking,71982
-62,High School,Technology,3,Suburban,39,Divorced,Full-time,7,Own,Single-family home,Female,Car,67244
-61,Master's,Education,5,Urban,50,Married,Part-time,3,Own,Apartment,Female,Car,66950
-25,Bachelor's,Finance,1,Urban,48,Single,Full-time,7,Own,Apartment,Male,Biking,58367
-63,Doctorate,Others,4,Urban,19,Single,Part-time,7,Own,Single-family home,Male,Car,67068
-25,Bachelor's,Healthcare,0,Rural,18,Divorced,Full-time,6,Own,Apartment,Female,Public transit,1355958
-70,High School,Healthcare,0,Urban,36,Married,Part-time,6,Rent,Apartment,Male,Public transit,45157
-28,Master's,Education,2,Urban,9,Married,Full-time,2,Own,Single-family home,Male,Biking,74634
-20,Bachelor's,Others,4,Urban,1,Single,Full-time,2,Own,Townhouse,Male,Car,36817
-63,Master's,Healthcare,2,Urban,12,Single,Full-time,5,Own,Apartment,Male,Car,75180
-68,High School,Education,1,Suburban,19,Married,Self-employed,3,Own,Single-family home,Female,Car,74630
-18,Bachelor's,Healthcare,1,Urban,45,Single,Full-time,6,Own,Single-family home,Female,Car,73388
-34,Bachelor's,Technology,4,Urban,16,Married,Part-time,1,Own,Townhouse,Male,Biking,71352
-24,Bachelor's,Healthcare,0,Urban,10,Married,Part-time,7,Own,Townhouse,Female,Public transit,70564
-31,Master's,Healthcare,3,Urban,45,Married,Part-time,2,Rent,Apartment,Male,Public transit,136515
-48,Bachelor's,Healthcare,5,Urban,29,Single,Full-time,3,Own,Single-family home,Female,Public transit,72118
-62,High School,Others,3,Urban,47,Single,Full-time,7,Rent,Single-family home,Male,Biking,239392
-64,Master's,Finance,0,Rural,43,Single,Full-time,6,Rent,Apartment,Male,Car,75298
-26,Bachelor's,Technology,2,Urban,36,Married,Self-employed,3,Rent,Apartment,Male,Walking,67758
-35,High School,Education,4,Urban,2,Married,Full-time,4,Own,Townhouse,Female,Public transit,93558
-20,Bachelor's,Technology,2,Urban,6,Single,Part-time,2,Rent,Single-family home,Male,Public transit,73566
-37,Master's,Finance,1,Urban,26,Married,Part-time,1,Rent,Apartment,Female,Biking,3519677
-33,Bachelor's,Healthcare,2,Suburban,0,Single,Self-employed,2,Rent,Apartment,Male,Public transit,74782
-53,Master's,Education,0,Urban,5,Single,Part-time,4,Rent,Single-family home,Male,Public transit,71876
-56,Master's,Technology,4,Urban,5,Single,Full-time,3,Rent,Apartment,Male,Public transit,73052
-56,Bachelor's,Finance,4,Urban,4,Married,Part-time,1,Own,Apartment,Male,Biking,483848
-54,High School,Healthcare,3,Suburban,4,Married,Full-time,3,Own,Single-family home,Female,Public transit,81815
-26,Bachelor's,Technology,3,Urban,29,Married,Full-time,7,Rent,Apartment,Female,Car,566659
-31,Doctorate,Technology,2,Urban,17,Married,Part-time,4,Own,Apartment,Female,Biking,70490
-35,Bachelor's,Healthcare,0,Urban,2,Married,Full-time,6,Rent,Townhouse,Male,Public transit,124645
-54,Master's,Others,5,Urban,14,Single,Full-time,6,Own,Single-family home,Female,Walking,66168
-48,Bachelor's,Finance,0,Urban,24,Married,Full-time,5,Own,Single-family home,Male,Biking,161568
-52,High School,Education,0,Suburban,12,Single,Full-time,3,Own,Townhouse,Female,Car,72956
-23,Bachelor's,Healthcare,4,Urban,9,Single,Full-time,1,Rent,Townhouse,Male,Public transit,78426
-23,Master's,Education,0,Urban,16,Married,Self-employed,1,Rent,Single-family home,Female,Public transit,6771412
-34,Master's,Education,5,Urban,40,Single,Full-time,4,Rent,Single-family home,Male,Biking,652324
-65,Bachelor's,Others,3,Urban,44,Single,Part-time,6,Own,Apartment,Female,Public transit,7325673
-62,Bachelor's,Technology,4,Urban,15,Divorced,Full-time,4,Own,Single-family home,Female,Car,65770
-33,High School,Technology,5,Urban,2,Divorced,Full-time,2,Own,Apartment,Male,Public transit,66870
-22,Master's,Others,1,Urban,13,Married,Full-time,3,Own,Single-family home,Female,Public transit,67998
-28,Bachelor's,Others,3,Urban,22,Married,Full-time,6,Own,Apartment,Female,Car,9504771
-28,High School,Others,3,Urban,35,Single,Part-time,5,Own,Townhouse,Female,Public transit,74568
-55,High School,Healthcare,4,Urban,15,Married,Part-time,7,Rent,Single-family home,Male,Walking,73506
-65,High School,Finance,3,Urban,40,Single,Part-time,5,Own,Townhouse,Male,Car,75196
-66,Bachelor's,Healthcare,5,Urban,35,Single,Full-time,6,Own,Single-family home,Male,Walking,65026
-63,Master's,Finance,0,Urban,1,Married,Part-time,1,Rent,Apartment,Female,Biking,75450
-56,Bachelor's,Technology,1,Urban,20,Single,Full-time,4,Own,Townhouse,Female,Car,116758
-46,High School,Others,3,Urban,8,Single,Full-time,4,Rent,Apartment,Female,Public transit,269763
-23,Master's,Healthcare,0,Urban,25,Single,Part-time,7,Own,Single-family home,Male,Biking,67846
-48,Bachelor's,Healthcare,3,Suburban,15,Divorced,Self-employed,7,Own,Apartment,Female,Car,74264
-66,Bachelor's,Healthcare,0,Urban,44,Married,Full-time,4,Own,Townhouse,Male,Car,483534
-60,High School,Finance,1,Urban,13,Single,Part-time,5,Own,Townhouse,Male,Public transit,72460
-49,High School,Technology,5,Urban,42,Married,Full-time,7,Rent,Apartment,Male,Walking,256012
-28,Bachelor's,Finance,2,Suburban,16,Married,Part-time,4,Rent,Single-family home,Male,Biking,1111378
-45,Bachelor's,Others,1,Urban,1,Single,Part-time,3,Rent,Single-family home,Female,Public transit,50966
-60,High School,Technology,0,Suburban,23,Single,Full-time,1,Rent,Single-family home,Male,Public transit,6901054
-18,Bachelor's,Healthcare,2,Urban,18,Single,Full-time,4,Rent,Single-family home,Male,Walking,570016
-53,High School,Healthcare,4,Urban,12,Married,Full-time,1,Rent,Single-family home,Male,Walking,68642
-30,Bachelor's,Technology,1,Suburban,40,Married,Part-time,5,Own,Townhouse,Male,Public transit,72646
-64,Bachelor's,Healthcare,5,Urban,21,Married,Self-employed,5,Rent,Single-family home,Female,Walking,1314361
-42,Bachelor's,Technology,2,Urban,20,Single,Part-time,5,Own,Townhouse,Male,Biking,75096
-63,Bachelor's,Finance,5,Urban,3,Married,Full-time,7,Rent,Apartment,Female,Public transit,68174
-68,High School,Finance,4,Urban,50,Married,Full-time,6,Rent,Townhouse,Male,Car,66476
-49,Master's,Technology,1,Urban,8,Married,Full-time,7,Rent,Townhouse,Male,Car,72568
-41,Master's,Technology,5,Suburban,14,Divorced,Full-time,2,Own,Townhouse,Female,Car,68830
-66,Bachelor's,Others,3,Urban,41,Single,Self-employed,5,Own,Single-family home,Female,Biking,66822
-47,Master's,Others,3,Urban,8,Married,Full-time,3,Own,Apartment,Female,Public transit,1677649
-27,Master's,Finance,4,Urban,47,Divorced,Part-time,5,Rent,Single-family home,Female,Public transit,72382
-31,Bachelor's,Technology,4,Suburban,30,Married,Part-time,4,Rent,Apartment,Female,Public transit,59294
-25,Bachelor's,Technology,5,Urban,13,Married,Part-time,4,Own,Apartment,Female,Biking,3550214
-40,High School,Healthcare,1,Urban,20,Married,Full-time,7,Own,Townhouse,Female,Biking,66666
-20,Master's,Education,2,Urban,31,Divorced,Full-time,4,Rent,Single-family home,Female,Public transit,1063873
-18,Master's,Technology,4,Urban,25,Single,Part-time,3,Own,Townhouse,Female,Biking,74072
-62,Bachelor's,Others,1,Urban,37,Married,Self-employed,2,Rent,Single-family home,Female,Public transit,69364
-50,Master's,Technology,2,Urban,35,Married,Self-employed,6,Own,Single-family home,Female,Public transit,1719309
-27,High School,Technology,0,Urban,9,Married,Part-time,2,Rent,Single-family home,Female,Public transit,36414
-41,Master's,Healthcare,4,Urban,8,Married,Full-time,2,Own,Townhouse,Female,Public transit,65736
-29,Doctorate,Others,3,Urban,6,Divorced,Full-time,1,Own,Townhouse,Male,Public transit,74948
-59,Bachelor's,Education,2,Urban,17,Married,Full-time,6,Rent,Apartment,Male,Car,68196
-36,Bachelor's,Others,2,Urban,12,Married,Part-time,3,Own,Townhouse,Female,Car,69208
-43,Bachelor's,Technology,5,Urban,17,Single,Full-time,4,Rent,Single-family home,Female,Walking,472998
-55,Master's,Education,4,Urban,35,Single,Part-time,1,Own,Single-family home,Female,Public transit,74706
-23,Bachelor's,Healthcare,0,Urban,27,Single,Full-time,5,Own,Townhouse,Female,Car,42534
-55,High School,Others,5,Urban,3,Single,Part-time,1,Own,Single-family home,Male,Car,67942
-61,High School,Technology,1,Urban,4,Single,Full-time,3,Own,Single-family home,Male,Car,67710
-21,Bachelor's,Education,4,Urban,29,Married,Part-time,4,Own,Apartment,Female,Car,1248886
-42,Doctorate,Others,3,Suburban,10,Divorced,Full-time,6,Own,Townhouse,Male,Car,73122
-32,Master's,Healthcare,0,Rural,11,Single,Part-time,6,Own,Apartment,Male,Public transit,181232
-39,Bachelor's,Technology,2,Urban,39,Married,Self-employed,3,Rent,Townhouse,Female,Public transit,66196
-36,Bachelor's,Finance,2,Urban,0,Divorced,Part-time,3,Own,Single-family home,Female,Car,65638
-35,High School,Technology,1,Urban,32,Married,Full-time,4,Rent,Single-family home,Male,Biking,71670
-18,Bachelor's,Healthcare,0,Suburban,5,Married,Full-time,3,Own,Single-family home,Male,Biking,71884
-46,Bachelor's,Technology,4,Urban,47,Divorced,Part-time,4,Own,Apartment,Male,Public transit,68850
-24,Bachelor's,Healthcare,2,Urban,24,Married,Full-time,5,Own,Single-family home,Female,Biking,72162
-35,Master's,Technology,4,Urban,12,Single,Full-time,4,Rent,Single-family home,Female,Public transit,1336091
-60,High School,Healthcare,1,Rural,7,Married,Self-employed,5,Own,Apartment,Female,Biking,180227
-69,High School,Others,0,Urban,28,Married,Self-employed,7,Rent,Single-family home,Female,Public transit,2969186
-45,Doctorate,Technology,4,Urban,8,Married,Part-time,3,Rent,Townhouse,Male,Public transit,73356
-34,High School,Education,4,Suburban,40,Single,Full-time,6,Own,Single-family home,Female,Biking,71282
-49,High School,Technology,4,Urban,47,Married,Part-time,5,Own,Apartment,Female,Biking,68608
-40,High School,Technology,3,Urban,33,Single,Part-time,5,Own,Townhouse,Female,Biking,67402
-69,Bachelor's,Technology,2,Urban,2,Single,Part-time,2,Own,Single-family home,Female,Car,1065813
-61,Bachelor's,Healthcare,4,Urban,22,Married,Part-time,4,Own,Single-family home,Male,Car,74374
-30,Bachelor's,Education,4,Urban,12,Single,Full-time,1,Own,Single-family home,Female,Car,7373889
-68,High School,Others,0,Rural,49,Single,Full-time,7,Own,Townhouse,Female,Public transit,73748
-63,Bachelor's,Others,2,Urban,24,Single,Full-time,7,Own,Apartment,Female,Biking,67296
-21,Bachelor's,Education,4,Urban,13,Married,Part-time,1,Own,Single-family home,Male,Car,1003193
-63,High School,Others,2,Urban,20,Married,Full-time,1,Rent,Apartment,Male,Car,66224
-24,High School,Technology,2,Suburban,49,Married,Full-time,6,Rent,Apartment,Male,Public transit,1747309
-23,High School,Others,1,Urban,5,Single,Full-time,7,Rent,Apartment,Male,Public transit,2564030
-47,Bachelor's,Others,0,Urban,38,Married,Part-time,5,Own,Single-family home,Male,Car,67702
-62,Bachelor's,Finance,4,Urban,25,Married,Self-employed,3,Own,Apartment,Male,Biking,74358
-34,High School,Finance,3,Urban,48,Married,Full-time,6,Own,Apartment,Female,Walking,65342
-35,Master's,Technology,2,Urban,42,Married,Self-employed,5,Own,Single-family home,Male,Car,5014021
-60,Bachelor's,Healthcare,0,Urban,37,Married,Part-time,3,Rent,Apartment,Male,Car,141011
-22,Master's,Healthcare,1,Rural,7,Married,Full-time,1,Rent,Single-family home,Male,Public transit,319748
-68,High School,Finance,2,Suburban,27,Single,Full-time,3,Rent,Townhouse,Female,Car,66350
-24,Bachelor's,Others,3,Suburban,9,Single,Full-time,6,Own,Single-family home,Male,Biking,874832
-20,Bachelor's,Technology,2,Urban,50,Married,Part-time,2,Own,Townhouse,Male,Biking,38415
-25,Bachelor's,Healthcare,2,Suburban,34,Married,Part-time,1,Rent,Apartment,Female,Public transit,45862
-23,High School,Healthcare,0,Urban,36,Married,Part-time,5,Rent,Apartment,Female,Public transit,52807
-63,Bachelor's,Others,0,Urban,12,Single,Self-employed,5,Own,Apartment,Female,Public transit,74950
-70,Bachelor's,Healthcare,1,Urban,7,Single,Full-time,4,Own,Single-family home,Female,Public transit,69984
-30,Bachelor's,Technology,2,Urban,30,Single,Full-time,3,Own,Townhouse,Female,Public transit,159637
-49,High School,Technology,2,Urban,15,Married,Part-time,7,Own,Single-family home,Male,Public transit,66690
-54,High School,Finance,1,Urban,0,Single,Part-time,4,Own,Townhouse,Male,Biking,69704
-52,High School,Education,3,Urban,26,Single,Part-time,5,Own,Townhouse,Male,Public transit,70764
-20,Master's,Others,1,Suburban,27,Single,Full-time,3,Own,Apartment,Female,Walking,74038
-30,Bachelor's,Healthcare,2,Rural,36,Married,Self-employed,4,Own,Apartment,Male,Public transit,70876
-69,High School,Technology,0,Urban,32,Married,Self-employed,4,Own,Townhouse,Male,Public transit,4432941
-37,Bachelor's,Healthcare,1,Urban,27,Single,Part-time,5,Own,Townhouse,Female,Car,74604
-42,Bachelor's,Healthcare,5,Urban,50,Single,Part-time,2,Own,Apartment,Female,Biking,71976
-32,Master's,Technology,2,Urban,38,Married,Full-time,6,Own,Apartment,Female,Public transit,74770
-51,Bachelor's,Technology,1,Urban,39,Divorced,Part-time,1,Own,Townhouse,Female,Biking,48088
-69,Bachelor's,Others,0,Urban,41,Married,Self-employed,6,Own,Single-family home,Female,Biking,66494
-54,Master's,Others,2,Urban,41,Single,Full-time,3,Own,Single-family home,Female,Car,74626
-26,High School,Finance,2,Suburban,7,Married,Self-employed,3,Own,Apartment,Female,Car,73254
-62,High School,Finance,0,Urban,38,Married,Part-time,1,Rent,Single-family home,Female,Public transit,66912
-33,Bachelor's,Finance,4,Suburban,40,Married,Full-time,5,Rent,Townhouse,Female,Walking,73588
-47,Master's,Others,0,Urban,31,Single,Full-time,4,Own,Apartment,Male,Car,70480
-34,Master's,Others,4,Urban,16,Married,Full-time,7,Own,Apartment,Male,Public transit,6216985
-21,Master's,Education,4,Urban,49,Single,Part-time,4,Own,Apartment,Female,Biking,72356
-63,Bachelor's,Technology,5,Urban,5,Married,Full-time,3,Own,Townhouse,Female,Walking,65108
-40,High School,Finance,5,Rural,10,Married,Full-time,7,Own,Apartment,Female,Car,99591
-70,Bachelor's,Finance,3,Urban,27,Married,Full-time,5,Own,Single-family home,Male,Car,72256
-29,High School,Healthcare,3,Urban,27,Married,Full-time,6,Own,Apartment,Male,Biking,70114
-28,High School,Finance,2,Urban,12,Single,Full-time,7,Own,Single-family home,Male,Car,70830
-57,Master's,Others,0,Urban,16,Single,Full-time,3,Own,Single-family home,Male,Walking,68352
-46,Bachelor's,Healthcare,5,Suburban,42,Divorced,Part-time,4,Own,Single-family home,Female,Biking,73380
-50,Doctorate,Others,2,Suburban,11,Married,Full-time,6,Own,Apartment,Female,Public transit,72754
-35,Master's,Healthcare,1,Urban,40,Single,Full-time,6,Rent,Apartment,Female,Public transit,4255192
-61,Bachelor's,Technology,3,Urban,31,Married,Self-employed,3,Rent,Apartment,Male,Car,7023831
-58,Bachelor's,Finance,1,Suburban,6,Divorced,Full-time,7,Rent,Townhouse,Female,Walking,68486
-36,High School,Technology,5,Rural,43,Divorced,Self-employed,2,Own,Townhouse,Female,Biking,74268
-25,Master's,Healthcare,4,Urban,43,Single,Full-time,2,Own,Single-family home,Female,Biking,68772
-25,Bachelor's,Healthcare,4,Urban,33,Married,Part-time,6,Rent,Townhouse,Female,Biking,829468
-25,Bachelor's,Education,1,Urban,34,Married,Part-time,5,Own,Single-family home,Female,Biking,70560
-62,Doctorate,Education,4,Urban,14,Married,Part-time,5,Own,Townhouse,Male,Car,72862
-37,Master's,Finance,3,Suburban,14,Married,Full-time,7,Own,Single-family home,Female,Car,66282
-22,Bachelor's,Others,0,Urban,32,Single,Part-time,1,Rent,Apartment,Male,Public transit,74148
-53,High School,Education,4,Urban,21,Single,Full-time,4,Own,Single-family home,Female,Public transit,9871131
-20,Bachelor's,Education,4,Urban,5,Married,Part-time,6,Own,Townhouse,Male,Walking,517577
-50,High School,Others,2,Urban,44,Married,Self-employed,5,Own,Apartment,Male,Public transit,71640
-30,Master's,Technology,1,Suburban,15,Married,Part-time,7,Rent,Apartment,Female,Biking,206916
-70,High School,Others,4,Urban,15,Married,Self-employed,4,Rent,Apartment,Male,Public transit,73414
-20,Master's,Others,4,Urban,30,Single,Full-time,6,Own,Apartment,Male,Car,68792
-49,Master's,Technology,4,Urban,40,Married,Full-time,4,Own,Townhouse,Female,Public transit,713409
-61,High School,Healthcare,2,Rural,28,Married,Full-time,1,Own,Apartment,Female,Public transit,345841
-21,Bachelor's,Others,1,Urban,32,Married,Self-employed,1,Own,Townhouse,Male,Car,112005
-56,Bachelor's,Technology,0,Urban,4,Divorced,Part-time,2,Rent,Apartment,Female,Public transit,68604
-43,Bachelor's,Healthcare,0,Urban,4,Married,Full-time,1,Rent,Single-family home,Male,Public transit,52610
-52,Master's,Healthcare,0,Suburban,44,Married,Part-time,4,Own,Single-family home,Male,Public transit,72752
-23,Bachelor's,Healthcare,2,Rural,16,Married,Part-time,7,Own,Townhouse,Male,Car,2339882
-67,Bachelor's,Education,2,Rural,14,Married,Part-time,5,Own,Townhouse,Male,Car,297075
-51,Bachelor's,Healthcare,2,Urban,17,Married,Full-time,7,Own,Single-family home,Female,Walking,66036
-63,Doctorate,Technology,2,Suburban,45,Single,Self-employed,6,Rent,Single-family home,Male,Car,574243
-49,High School,Healthcare,4,Urban,20,Married,Part-time,6,Own,Apartment,Female,Car,813740
-50,Bachelor's,Technology,0,Urban,20,Single,Full-time,1,Own,Apartment,Female,Car,65832
-20,Bachelor's,Technology,1,Urban,22,Married,Full-time,7,Own,Single-family home,Female,Car,67016
-30,Bachelor's,Healthcare,1,Suburban,23,Single,Full-time,6,Rent,Apartment,Male,Car,412635
-35,Bachelor's,Others,3,Urban,8,Married,Self-employed,5,Own,Apartment,Male,Biking,3277785
-49,Master's,Technology,0,Suburban,3,Married,Self-employed,3,Rent,Apartment,Male,Public transit,493126
-38,Bachelor's,Others,3,Suburban,16,Divorced,Part-time,6,Rent,Apartment,Female,Public transit,3628524
+Country,Year,Status,Life expectancy ,Adult Mortality,infant deaths,Alcohol,percentage expenditure,Hepatitis B,Measles , BMI ,under-five deaths ,Polio,Total expenditure,Diphtheria , HIV/AIDS,GDP,Population, thinness  1-19 years, thinness 5-9 years,Income composition of resources,Schooling
+Syrian Arab Republic,2006,Developing,73.7,123.0,8,0.97,122.6523334,83.0,517,48.5,10,83.0,3.78,8.0,0.1,1762.24617,18914977.0,6.4,6.3,0.636,11.4
+Croatia,2006,Developed,75.9,113.0,0,11.83,1555.651986,,1,58.1,0,96.0,6.95,96.0,0.1,11363.41845,444.0,1.8,1.8,0.783,13.9
+Montenegro,2007,Developing,74.2,125.0,0,4.98,678.5188944,9.0,0,57.2,0,92.0,6.74,92.0,0.1,5957.145693,615875.0,2.1,2.2,0.762,13.6
+Bahrain,2014,Developing,76.8,7.0,0,1.57,367.2556742,98.0,46,62.9,0,98.0,4.98,98.0,0.1,24983.3792,,6.1,6.0,0.82,14.5
+Kenya,2000,Developing,51.9,428.0,77,1.51,0.681685555,,21002,14.4,121,8.0,4.68,82.0,18.1,43.9797132,3145483.0,9.2,9.1,0.448,8.4
+Chad,2008,Developing,49.6,394.0,46,0.45,49.09198224,17.0,63,16.4,80,3.0,2.92,19.0,4.7,929.772391,11133861.0,9.8,9.7,0.338,6.0
+Solomon Islands,2005,Developing,67.4,24.0,0,0.9,25.31155956,83.0,0,42.1,0,9.0,7.83,89.0,0.1,88.874858,469885.0,1.3,1.3,0.465,8.3
+Peru,2008,Developing,73.9,138.0,11,4.85,58.4989742,93.0,1,5.8,14,93.0,4.73,93.0,0.3,428.87811,2864198.0,1.2,1.2,0.7,13.2
+Bosnia and Herzegovina,2014,Developing,77.2,89.0,0,4.03,732.8662491,89.0,3000,55.3,0,86.0,9.57,86.0,0.1,5193.94932,35662.0,2.4,2.4,0.742,14.2
+Swaziland,2011,Developing,55.0,438.0,2,5.2,735.7090978,91.0,0,3.2,3,85.0,8.61,91.0,15.7,3934.27325,1225258.0,5.1,5.2,0.526,11.2
+Cameroon,2000,Developing,51.4,394.0,62,3.91,4.720593531,,14629,2.9,100,57.0,4.48,62.0,7.7,68.414399,15274234.0,7.7,7.8,0.433,6.9
+Côte d'Ivoire,2015,Developing,53.3,397.0,57,,0.0,83.0,65,28.0,79,81.0,,83.0,1.9,,,5.5,5.5,,
+Guinea,2011,Developing,58.1,29.0,28,0.22,42.2547904,63.0,11,21.2,43,63.0,4.73,63.0,2.0,459.2912,113517.0,8.0,8.0,0.385,8.4
+Maldives,2006,Developing,75.0,88.0,0,1.62,659.8499118,98.0,47,18.7,0,98.0,7.37,98.0,0.1,4428.522898,333.0,14.3,14.5,0.622,12.0
+Uzbekistan,2013,Developing,69.1,185.0,17,0.01,19.1624696,99.0,0,43.0,19,99.0,6.32,99.0,0.1,197.551233,32432.0,3.0,3.1,0.681,12.0
+Haiti,2009,Developing,62.5,251.0,16,5.85,41.30079452,,0,43.0,21,65.0,6.68,65.0,2.0,668.297646,985287.0,4.1,4.1,0.466,8.5
+Madagascar,2000,Developing,57.9,283.0,44,1.16,35.66125056,,35256,13.9,68,58.0,5.8,57.0,0.6,245.939659,1576686.0,8.7,8.6,0.0,8.0
+Germany,2004,Developed,79.1,86.0,3,11.83,5842.374765,88.0,121,57.1,3,96.0,1.37,96.0,0.1,34165.9343,8251626.0,1.1,1.1,0.877,16.4
+Dominican Republic,2000,Developing,72.0,176.0,7,6.58,44.79247812,68.0,253,43.1,9,71.0,5.9,78.0,2.5,282.4242,8562622.0,3.8,3.7,0.651,12.2
+Norway,2001,Developed,78.8,82.0,0,5.49,6356.827282,,4,54.0,0,91.0,8.65,91.0,0.1,38549.58934,4513751.0,0.8,0.7,0.917,17.5
+Netherlands,2004,Developed,79.2,77.0,1,9.56,5170.130703,,11,55.0,1,98.0,8.52,98.0,0.1,39954.64222,16281779.0,1.0,1.0,0.885,16.5
+New Zealand,2011,Developed,86.0,72.0,0,9.47,8342.405764,95.0,597,65.3,0,95.0,11.24,95.0,0.1,38426.5581,,0.3,0.3,0.901,19.7
+Nicaragua,2009,Developing,73.2,163.0,3,3.36,292.753101,98.0,0,49.4,3,99.0,6.82,98.0,0.2,1464.497754,5666581.0,1.9,1.8,0.613,11.3
+Micronesia (Federated States of),2001,Developing,67.2,183.0,0,2.82,0.0,81.0,0,62.0,0,79.0,8.58,75.0,0.1,,,0.3,0.2,0.604,10.1
+Belize,2015,Developing,71.0,175.0,0,,0.0,94.0,0,5.9,0,94.0,,94.0,0.2,4849.997495,359288.0,3.5,3.4,0.706,12.8
+Dominican Republic,2004,Developing,69.3,214.0,7,5.16,182.6162515,82.0,0,47.2,8,66.0,4.28,79.0,2.1,2421.9662,912998.0,3.6,3.5,0.666,12.5
+Sierra Leone,2015,Developing,51.0,413.0,22,,0.0,86.0,607,24.4,30,86.0,,86.0,0.5,587.538233,723725.0,7.4,7.3,0.431,9.5
+Bhutan,2007,Developing,66.5,238.0,1,0.16,283.806236,95.0,11,18.0,1,93.0,5.88,95.0,0.3,1741.142552,686958.0,17.3,18.1,0.0,10.1
+Norway,2013,Developed,81.5,62.0,0,6.21,234.782883,,8,6.3,0,94.0,9.39,94.0,0.1,1291.435,579623.0,0.8,0.7,0.942,17.5
+Nicaragua,2014,Developing,74.5,148.0,2,3.55,473.1238124,98.0,0,53.2,3,99.0,9.4,98.0,0.1,1975.46477,613997.0,1.8,1.7,0.636,11.6
+Philippines,2005,Developing,67.0,223.0,65,4.22,105.7306982,49.0,118,2.1,84,9.0,3.91,89.0,0.1,1194.697155,86274237.0,1.0,9.7,0.642,11.6
+Georgia,2007,Developing,74.4,12.0,1,8.65,106.164686,94.0,44,49.9,1,88.0,8.17,98.0,0.1,2492.12878,482.0,2.7,2.9,0.722,12.5
+Bosnia and Herzegovina,2004,Developing,75.5,99.0,0,4.25,3.479918859,36.0,28,49.9,0,87.0,9.4,84.0,0.1,265.642661,3781287.0,3.0,3.0,0.0,12.3
+Honduras,2004,Developing,72.2,165.0,5,3.02,188.2499208,93.0,0,42.0,7,94.0,7.89,94.0,1.2,1217.657961,724153.0,2.6,2.5,0.571,10.4
+Luxembourg,2003,Developed,78.6,92.0,0,12.61,10111.38928,95.0,1,55.8,0,99.0,7.67,98.0,0.1,65445.8853,45163.0,1.0,0.9,0.865,13.6
+Mozambique,2001,Developing,49.5,48.0,90,2.09,37.82511936,25.0,7085,16.9,132,72.0,5.64,73.0,13.4,256.4414872,18588758.0,4.1,4.0,0.298,5.8
+Uganda,2014,Developing,61.5,38.0,68,0.01,14.16770158,78.0,314,18.1,97,82.0,7.22,78.0,3.2,719.172669,38833338.0,5.7,5.6,0.483,10.0
+Tonga,2000,Developing,71.6,158.0,0,1.24,40.49128897,93.0,0,65.5,0,91.0,4.75,91.0,0.1,263.27236,9882.0,0.1,0.1,0.676,13.7
+Turkmenistan,2004,Developing,63.5,238.0,6,2.86,186.1013972,96.0,1,4.0,8,98.0,4.3,97.0,0.1,1453.917166,473398.0,3.4,3.4,0.0,10.3
+Jordan,2007,Developing,73.0,12.0,4,0.6,373.2628643,98.0,41,59.3,4,98.0,8.35,98.0,0.1,2762.86354,6193191.0,3.8,3.8,0.736,13.6
+Togo,2000,Developing,54.6,339.0,14,1.1,2.02964427,,3578,16.6,22,63.0,4.35,64.0,5.1,26.3932935,497367.0,9.4,9.3,0.425,9.3
+Togo,2012,Developing,58.9,294.0,14,0.01,41.60027954,84.0,238,22.6,21,84.0,5.11,84.0,1.7,563.6894247,6859482.0,7.0,6.8,0.464,12.0
+United Arab Emirates,2004,Developing,75.1,95.0,1,1.77,2972.448675,92.0,22,57.0,1,94.0,2.46,94.0,0.1,36161.1761,,5.2,4.9,0.813,12.4
+Australia,2003,Developed,83.0,71.0,1,9.97,3829.550928,95.0,91,6.3,1,92.0,8.32,93.0,0.1,23465.38559,198954.0,0.7,0.7,0.905,20.6
+Uruguay,2012,Developing,76.5,118.0,0,5.77,339.7190493,95.0,0,62.3,0,95.0,8.74,95.0,0.1,1592.6819,3396777.0,1.5,1.5,0.784,15.5
+Central African Republic,2006,Developing,46.3,56.0,17,1.54,46.90117916,,3,18.6,26,47.0,3.99,51.0,10.0,347.673678,421758.0,9.6,9.6,0.323,6.0
+Italy,2002,Developed,80.0,72.0,2,9.25,2883.334911,95.0,9385,56.4,3,96.0,8.23,93.0,0.1,22196.5736,57597.0,0.5,0.5,0.836,15.2
+Maldives,2007,Developing,75.4,82.0,0,1.78,6.491488598,98.0,20,19.5,0,98.0,6.64,98.0,0.1,52.862285,349.0,14.3,14.4,0.632,11.9
+Burkina Faso,2013,Developing,59.0,27.0,40,4.64,88.97040214,88.0,375,18.2,66,89.0,5.91,88.0,0.7,699.452847,1772723.0,8.4,7.9,0.392,7.5
+Bangladesh,2013,Developing,71.0,135.0,104,0.01,52.82986467,96.0,237,17.0,130,96.0,2.88,96.0,0.1,951.8894535,157571292.0,18.3,18.8,0.565,10.0
+Somalia,2002,Developing,58.0,348.0,47,0.01,0.0,,9559,18.6,77,4.0,,4.0,0.9,,,7.8,7.6,,
+Saint Lucia,2000,Developing,71.6,183.0,0,11.69,0.0,,0,36.8,0,7.0,5.53,7.0,0.4,,,4.5,4.5,0.0,12.8
+Greece,2009,Developing,80.0,78.0,0,9.08,372.6854142,95.0,2,63.1,0,99.0,9.76,99.0,0.1,2971.973,111717.0,0.8,0.7,0.857,16.2
+Republic of Korea,2007,Developing,79.8,77.0,2,9.05,0.0,91.0,194,28.2,2,91.0,5.99,91.0,0.1,,,1.5,1.0,,
+Lebanon,2008,Developing,74.5,98.0,1,1.67,69.13924862,81.0,24,62.5,1,75.0,8.7,81.0,0.1,712.775759,411147.0,4.7,4.7,0.74,13.1
+Uganda,2011,Developing,59.3,347.0,76,10.22,94.49686776,82.0,3312,16.7,114,82.0,9.9,82.0,6.8,584.3962137,3593648.0,5.9,5.9,0.477,10.7
+Lithuania,2012,Developed,73.0,176.0,0,15.14,1807.071336,93.0,0,6.9,0,93.0,6.67,93.0,0.1,14341.836,2987773.0,2.7,2.7,0.83,16.5
+Maldives,2008,Developing,75.9,81.0,0,1.76,1077.712092,98.0,0,2.3,0,98.0,9.3,98.0,0.1,5828.621374,362.0,14.2,14.3,0.641,11.8
+Timor-Leste,2005,Developing,63.7,26.0,3,0.36,7.127144699,,203,13.5,3,55.0,1.5,55.0,0.1,478.331859,126484.0,12.0,11.9,0.492,10.6
+Bangladesh,2011,Developing,73.0,14.0,118,0.01,62.34988484,96.0,5625,15.8,150,96.0,3.16,96.0,0.1,835.789341,153911916.0,18.7,19.2,0.545,9.4
+United States of America,2007,Developed,78.1,11.0,27,8.74,0.0,93.0,43,65.1,32,93.0,15.57,96.0,0.1,,,0.7,0.6,,
+Togo,2001,Developing,54.6,345.0,14,0.95,2.048574874,,1833,17.1,22,51.0,4.29,5.0,5.3,26.6394652,511177.0,9.2,9.1,0.426,9.4
+Iran (Islamic Republic of),2011,Developing,74.7,93.0,22,0.03,0.0,99.0,73,54.8,25,99.0,7.12,99.0,0.1,,,7.9,8.1,0.745,13.1
+Cabo Verde,2006,Developing,72.1,129.0,0,4.25,26.45133197,95.0,0,24.9,0,97.0,5.11,96.0,0.6,234.28992,48795.0,8.3,8.3,0.596,11.9
+Guinea,2001,Developing,52.5,336.0,36,0.17,19.89790929,,7408,16.9,58,52.0,3.65,5.0,3.0,315.83983,8971139.0,1.1,1.1,0.322,5.1
+South Africa,2008,Developing,55.3,473.0,50,8.19,780.0336423,76.0,39,45.7,75,77.0,7.75,79.0,23.5,5786.59972,49557573.3,8.9,1.7,0.616,12.9
+Burundi,2001,Developing,51.3,385.0,25,6.09,10.61917585,,0,13.0,40,72.0,4.96,81.0,5.3,133.7427689,6555829.0,8.8,8.8,0.268,4.5
+Croatia,2012,Developed,77.1,14.0,0,11.49,1851.713262,98.0,2,61.9,0,96.0,7.8,96.0,0.1,13235.97757,4267558.0,1.5,1.5,0.815,14.6
+Eritrea,2007,Developing,62.0,329.0,6,1.23,11.42385961,91.0,55,14.7,9,91.0,3.29,91.0,1.3,317.3294336,4153332.0,9.2,9.2,0.405,5.3
+Lithuania,2004,Developed,71.6,24.0,0,12.1,76.36187737,94.0,1,58.1,0,9.0,5.67,94.0,0.1,676.966998,337775.0,3.1,3.1,0.792,16.3
+France,2008,Developing,89.0,88.0,3,11.9,7002.785925,47.0,604,59.1,3,98.0,1.57,98.0,0.1,45413.6571,6437499.0,0.6,0.6,0.877,16.1
+Chile,2004,Developing,78.0,97.0,2,6.32,78.78564878,,0,56.8,2,94.0,6.93,93.0,0.1,621.828325,15973778.0,0.9,1.0,0.781,14.3
+Jordan,2011,Developing,73.6,116.0,4,0.43,68.86623298,98.0,0,62.4,4,98.0,8.39,98.0,0.1,387.324145,7574943.0,3.8,3.9,0.737,13.1
+Angola,2012,Developing,56.0,358.0,72,8.24,256.1225243,75.0,4458,21.5,110,75.0,3.3,75.0,2.6,4598.249988,259615.0,8.8,8.6,0.508,10.3
+Mozambique,2015,Developing,57.6,355.0,60,,0.0,8.0,79,22.6,81,8.0,,8.0,3.9,528.3125597,281691.0,3.6,3.5,0.414,9.1
+Republic of Moldova,2003,Developing,67.6,226.0,1,8.15,0.0,99.0,87,47.6,1,98.0,8.24,98.0,0.1,,,3.3,3.5,,
+Yemen,2010,Developing,64.4,233.0,35,0.06,0.0,76.0,510,37.2,45,77.0,5.17,76.0,0.1,,,13.7,13.7,0.488,8.5
+Bahrain,2013,Developing,76.7,7.0,0,1.65,3.968695982,99.0,0,62.2,0,99.0,4.69,99.0,0.1,251.18329,,6.1,6.0,0.815,14.5
+Cambodia,2001,Developing,58.5,273.0,25,1.71,27.68971051,,3761,12.4,33,59.0,5.7,6.0,2.2,321.22634,1242473.0,11.6,11.8,0.412,7.6
+Suriname,2004,Developing,68.3,214.0,0,4.55,4.23257668,,0,5.4,0,84.0,6.88,85.0,0.9,36.48773,49363.0,3.5,3.5,0.0,11.1
+Madagascar,2011,Developing,63.8,241.0,31,0.97,78.79967196,73.0,0,18.5,43,73.0,4.24,73.0,0.4,454.963464,21743949.0,7.5,7.4,0.504,10.2
+Senegal,2006,Developing,61.3,236.0,23,0.34,10.43022617,89.0,3,19.9,38,89.0,5.44,89.0,0.7,89.838296,11556763.0,11.2,11.1,0.422,6.6
+Mongolia,2002,Developing,63.8,263.0,2,2.43,55.60878216,98.0,1205,39.8,2,98.0,5.81,98.0,0.1,571.51883,2443659.0,2.4,2.5,0.599,10.1
+Nepal,2003,Developing,64.3,22.0,38,0.2,2.79096532,2.0,13344,12.9,50,76.0,5.48,78.0,0.1,253.72412,2495623.0,18.0,18.6,0.457,9.2
+Cabo Verde,2000,Developing,69.9,155.0,0,3.49,122.5744699,,2,21.5,0,9.0,4.81,9.0,0.8,1239.377855,43579.0,9.6,9.5,0.0,11.3
+Ireland,2005,Developed,78.7,78.0,0,13.31,973.681333,,95,55.1,0,9.0,7.27,9.0,0.1,5886.82789,4159914.0,0.3,0.2,0.889,17.5
+Saudi Arabia,2004,Developing,73.1,12.0,9,0.06,816.4795082,96.0,1880,59.4,11,96.0,3.58,96.0,0.1,11138.8746,,7.2,7.3,0.754,12.3
+Philippines,2003,Developing,67.2,217.0,67,4.44,0.901149288,52.0,10511,19.2,87,85.0,3.25,84.0,0.1,11.553196,8331954.0,1.0,9.7,0.631,11.6
+Latvia,2006,Developed,75.0,229.0,0,10.4,1099.248837,94.0,7,57.4,0,96.0,6.8,96.0,0.1,9667.9757,2218357.0,2.4,2.5,0.807,16.2
+Greece,2005,Developing,79.3,81.0,0,9.95,2785.139364,93.0,122,6.5,1,96.0,9.36,96.0,0.1,22551.73574,1987314.0,0.8,0.7,0.839,15.6
+Serbia,2001,Developing,73.1,135.0,1,7.53,222.5065705,,35,51.7,1,93.0,6.89,93.0,0.1,1634.87561,753433.0,2.8,2.8,0.709,13.1
+Uganda,2006,Developing,54.9,41.0,93,9.81,50.83901418,64.0,5736,14.8,145,62.0,9.86,64.0,8.6,336.4593923,2955662.0,6.4,6.4,0.434,10.6
+Peru,2006,Developing,74.2,134.0,12,4.22,448.7670462,94.0,0,49.5,15,94.0,4.47,94.0,0.4,3171.49856,27949944.0,1.2,1.2,0.693,13.0
+Montenegro,2015,Developing,76.1,16.0,0,,0.0,82.0,0,61.8,0,89.0,,89.0,0.1,6461.192554,622159.0,1.8,1.8,0.804,15.1
+Antigua and Barbuda,2012,Developing,75.9,134.0,0,8.18,2156.229842,98.0,0,45.7,0,97.0,5.39,98.0,0.2,12565.44197,,3.3,3.3,0.778,13.8
+Egypt,2000,Developing,68.8,171.0,65,0.14,0.0,98.0,2633,5.7,82,98.0,5.55,98.0,0.1,,,3.6,3.5,0.606,11.0
+Slovakia,2015,Developed,76.7,19.0,0,,0.0,96.0,1,59.1,0,96.0,,96.0,0.1,,,1.2,1.2,0.842,15.0
+Egypt,2008,Developing,69.8,172.0,54,0.24,0.0,97.0,668,55.5,65,97.0,4.82,97.0,0.1,,,3.1,3.0,0.651,11.9
+Guyana,2008,Developing,66.3,218.0,1,7.32,493.3279293,93.0,0,4.9,1,93.0,7.46,93.0,0.8,2576.124957,746314.0,5.6,5.4,0.618,10.7
+Myanmar,2000,Developing,62.1,243.0,73,0.35,2.511437292,,845,13.6,100,88.0,1.84,82.0,0.4,193.187484,4695462.0,13.3,13.7,0.417,7.5
+Norway,2005,Developed,81.0,73.0,0,6.37,11792.53465,,0,56.5,0,91.0,8.89,91.0,0.1,66775.3944,4623291.0,0.8,0.7,0.929,17.6
+Chad,2015,Developing,53.1,356.0,46,,0.0,46.0,418,19.1,77,52.0,,46.0,2.8,777.248751,149413.0,8.5,8.4,0.394,7.3
+China,2008,Developing,74.5,97.0,266,4.27,39.22509728,95.0,131441,26.5,308,99.0,4.59,97.0,0.1,3471.247547,1324655.0,4.5,4.0,0.672,11.9
+Guinea,2000,Developing,52.5,328.0,37,0.17,2.215986136,,11294,16.6,60,47.0,3.46,46.0,3.0,34.516918,888546.0,1.3,1.3,0.316,4.8
+Tunisia,2014,Developing,75.1,12.0,3,1.39,604.8701316,98.0,15,6.2,3,98.0,7.0,98.0,0.1,4271.68172,1114398.0,6.5,6.4,0.722,14.7
+Canada,2004,Developing,80.0,77.0,2,7.8,5513.329924,14.0,7,6.6,2,91.0,9.56,91.0,0.1,31979.87195,31995.0,0.5,0.4,0.881,15.8
+Micronesia (Federated States of),2014,Developing,69.4,164.0,0,1.58,0.0,81.0,140,68.7,0,76.0,13.71,77.0,0.1,,,0.2,0.2,0.639,11.7
+Bangladesh,2004,Developing,67.3,158.0,185,0.01,4.11469667,11.0,9743,12.0,247,88.0,2.62,99.0,0.1,46.7579167,14137489.0,2.1,2.7,0.491,8.1
+Haiti,2003,Developing,59.7,3.0,18,6.64,44.25687135,,0,36.5,25,56.0,5.32,53.0,4.6,329.782946,8976552.0,4.5,4.6,0.447,8.1
+Kenya,2015,Developing,63.4,249.0,54,,0.0,89.0,95,22.0,75,83.0,,89.0,2.8,1349.97144,47236259.0,7.8,7.6,0.55,11.1
+Bolivia (Plurinational State of),2001,Developing,63.3,238.0,14,2.2,0.0,77.0,0,43.3,19,71.0,6.31,71.0,0.1,,,1.5,1.4,0.607,13.7
+Lao People's Democratic Republic,2004,Developing,64.0,252.0,12,3.53,0.0,45.0,1491,14.4,16,46.0,4.54,45.0,0.2,,,1.1,1.2,0.485,8.6
+Namibia,2003,Developing,55.0,471.0,3,5.28,294.6571552,,262,26.5,4,82.0,6.52,79.0,24.7,2482.36862,1986535.0,14.2,14.3,0.554,11.7
+India,2009,Developing,66.0,2.0,1300,2.5,0.844186331,37.0,56188,15.4,1700,73.0,4.38,74.0,0.2,19.317765,121427132.0,27.0,27.8,0.563,10.5
+India,2005,Developing,64.4,211.0,1500,1.27,3.5096369,8.0,36711,13.5,2000,65.0,4.28,65.0,0.3,77.819,1144118674.0,27.2,28.1,0.526,9.4
+Chile,2002,Developing,77.8,11.0,2,6.06,675.7808443,,0,55.4,3,97.0,6.48,97.0,0.1,4463.545867,15623635.0,1.0,1.0,0.768,13.9
+Uganda,2008,Developing,56.3,41.0,84,9.79,72.85023656,71.0,1319,15.6,130,69.0,9.1,71.0,8.2,449.6928183,31663896.0,6.2,6.2,0.453,10.6
+Liberia,2002,Developing,56.0,371.0,13,4.27,10.424369,,131,2.7,19,51.0,5.43,39.0,3.1,177.285187,362863.0,8.8,8.9,0.376,10.4
+Democratic Republic of the Congo,2009,Developing,56.7,292.0,238,2.13,0.0,72.0,57,18.6,323,78.0,5.61,72.0,1.7,,,1.6,1.4,,
+Yemen,2008,Developing,63.8,238.0,37,0.04,0.0,78.0,7,35.7,47,78.0,5.12,78.0,0.1,,,13.8,13.7,0.48,8.5
+Pakistan,2007,Developing,64.4,178.0,367,0.03,3.912744517,75.0,2801,2.1,459,75.0,3.35,75.0,0.1,95.4327931,16332974.0,2.8,21.3,0.505,6.7
+Suriname,2014,Developing,71.4,178.0,0,6.32,1132.432517,85.0,0,57.7,0,85.0,5.69,85.0,0.4,9564.46383,547928.0,3.5,3.5,0.722,12.7
+Sweden,2013,Developed,81.9,57.0,0,7.3,1212.666327,67.0,51,58.5,0,98.0,11.97,98.0,0.1,6283.24522,96379.0,1.4,1.3,0.904,15.8
+Ghana,2002,Developing,57.6,31.0,42,1.6,3.336437969,8.0,12289,2.7,63,8.0,3.7,78.0,3.5,39.484473,19924522.0,8.8,8.8,0.484,7.6
+Sudan,2000,Developing,58.6,284.0,71,1.76,30.86000992,,2875,,109,62.0,3.23,62.0,0.1,361.35843,2725535.0,,,0.394,5.5
+Cambodia,2008,Developing,65.6,199.0,16,2.24,53.10009046,91.0,4211,15.3,18,91.0,5.55,91.0,0.7,745.7877873,138859.0,11.2,11.4,0.511,10.5
+Iran (Islamic Republic of),2003,Developing,75.0,154.0,29,0.01,0.0,98.0,11644,46.9,35,99.0,5.42,99.0,0.1,,,7.5,7.7,0.679,11.8
+Namibia,2011,Developing,64.3,268.0,3,7.84,7.896234931,82.0,79,32.5,4,85.0,8.78,82.0,4.7,56.971392,2215621.0,9.9,9.9,0.612,11.5
+Saint Vincent and the Grenadines,2014,Developing,73.1,157.0,0,7.01,0.0,98.0,0,53.1,0,97.0,8.63,98.0,0.1,,,3.5,3.4,0.72,13.3
+Mauritius,2007,Developing,72.9,161.0,0,3.24,582.5143743,97.0,13,29.1,0,96.0,4.24,97.0,0.1,6574.654338,123963.0,7.5,7.4,0.72,13.5
+Brazil,2013,Developing,74.7,146.0,46,7.24,916.270845,96.0,220,54.5,52,96.0,8.48,97.0,0.1,12216.9446,2248632.0,2.8,2.7,0.734,14.2
+Canada,2013,Developing,81.8,67.0,2,8.2,9733.228019,55.0,83,65.8,2,91.0,1.67,91.0,0.1,52413.72116,35155451.0,0.5,0.5,0.909,15.9
+Montenegro,2002,Developing,73.4,136.0,0,0.01,36.48024032,,0,53.5,0,,8.33,,0.1,216.243274,69828.0,2.5,2.5,0.0,0.0
+Kyrgyzstan,2000,Developing,66.6,225.0,4,2.13,0.0,44.0,16,35.6,5,99.0,4.68,99.0,0.1,,,3.6,3.6,0.586,11.4
+Niger,2003,Developing,52.1,28.0,56,0.1,20.26876572,,54190,14.6,121,44.0,6.23,41.0,1.6,215.8548,1265687.0,12.3,12.2,0.266,3.0
+Turkmenistan,2015,Developing,66.3,215.0,6,,0.0,99.0,0,48.6,7,99.0,,99.0,0.1,6432.668768,5565284.0,3.3,3.3,0.688,10.8
+Bahrain,2007,Developing,75.6,77.0,0,2.0,278.3602806,97.0,7,57.6,0,97.0,3.8,97.0,0.1,2977.1153,,6.1,5.9,0.813,14.4
+Cyprus,2003,Developed,78.5,66.0,0,10.62,158.7087399,88.0,0,54.3,0,98.0,6.83,98.0,0.1,2293.4789,993563.0,0.9,1.0,0.815,13.0
+United Arab Emirates,2006,Developing,75.4,89.0,1,1.74,3749.941617,92.0,0,55.8,1,94.0,2.33,92.0,0.1,42372.22166,,5.1,4.9,0.823,12.8
+Algeria,2015,Developing,75.6,19.0,21,,0.0,95.0,63,59.5,24,95.0,,95.0,0.1,4132.76292,39871528.0,6.0,5.8,0.743,14.4
+Iraq,2010,Developing,76.0,145.0,32,0.19,21.82252494,72.0,492,55.8,39,74.0,3.82,74.0,0.1,452.74948,376271.0,5.3,5.1,0.646,10.4
+Lao People's Democratic Republic,2014,Developing,65.3,199.0,8,0.01,0.0,88.0,339,2.9,11,88.0,1.87,88.0,0.2,,,8.9,9.0,0.573,10.6
+Mauritania,2010,Developing,62.0,214.0,8,0.01,8.353074798,64.0,1292,27.4,12,52.0,3.28,64.0,1.2,123.383675,369543.0,8.7,8.5,0.484,7.6
+Liberia,2014,Developing,58.1,329.0,8,0.01,54.37396957,5.0,34,26.7,11,49.0,1.4,5.0,0.9,458.4651734,439737.0,6.7,6.5,0.426,9.9
+Côte d'Ivoire,2004,Developing,48.2,472.0,64,3.08,0.0,67.0,3466,21.5,91,76.0,5.24,67.0,6.5,,,7.3,7.3,,
+Turkmenistan,2008,Developing,64.5,235.0,6,2.4,34.23979419,96.0,0,42.7,8,96.0,1.93,96.0,0.1,394.467675,4935762.0,3.2,3.3,0.0,10.5
+Montenegro,2000,Developing,73.0,144.0,0,0.01,274.5472605,,0,51.9,0,,7.32,,0.1,1627.42893,6495.0,2.6,2.7,0.0,0.0
+Grenada,2013,Developing,73.3,144.0,0,8.25,780.4459281,97.0,0,46.5,0,98.0,6.15,97.0,0.1,7955.615985,,3.8,3.8,0.746,15.8
+Kenya,2011,Developing,61.2,278.0,60,1.8,109.7051836,96.0,2395,19.5,86,97.0,5.23,96.0,3.4,987.4453967,42486839.0,8.1,7.9,0.53,11.1
+Chile,2005,Developing,78.4,93.0,2,7.57,954.9644887,,0,57.4,2,92.0,6.69,91.0,0.1,7615.3468,1614764.0,0.9,1.0,0.79,14.6
+Poland,2008,Developed,75.5,14.0,2,11.4,15.71474837,98.0,0,57.2,3,96.0,6.88,99.0,0.1,141.44688,38125759.0,2.2,2.3,0.813,15.0
+Canada,2005,Developing,81.0,76.0,2,8.0,6333.177967,14.0,6,61.3,2,93.0,9.57,93.0,0.1,36189.58838,32312.0,0.5,0.4,0.886,15.8
+Uzbekistan,2004,Developing,67.8,183.0,24,1.59,34.41887163,99.0,75,37.0,29,99.0,5.11,99.0,0.3,465.1198869,2586435.0,3.2,3.2,0.613,11.6
+United Republic of Tanzania,2014,Developing,67.0,34.0,86,0.01,0.0,97.0,88,23.2,121,97.0,5.58,97.0,1.4,,,6.8,6.6,,
+Spain,2006,Developed,88.0,73.0,2,11.86,4460.390006,97.0,362,61.1,2,98.0,8.23,98.0,0.1,28482.6948,44397319.0,0.6,0.5,0.844,15.9
+Czechia,2009,Developed,77.1,12.0,0,13.23,0.0,99.0,5,63.1,0,99.0,7.85,99.0,0.1,,,1.9,2.0,,
+France,2013,Developing,82.0,81.0,3,11.1,6646.953935,74.0,272,61.6,3,99.0,11.56,99.0,0.1,42554.1225,6599857.0,0.6,0.6,0.887,16.2
+Samoa,2005,Developing,71.6,16.0,0,3.63,287.4671305,41.0,0,69.7,0,55.0,4.47,49.0,0.1,2571.262348,179929.0,0.2,0.2,0.671,12.6
+Austria,2002,Developed,78.7,9.0,0,12.5,3979.057728,81.0,0,51.2,0,82.0,1.27,83.0,0.1,26351.37568,881957.0,1.7,1.9,0.847,16.1
+Malta,2012,Developed,81.0,58.0,0,7.67,343.123395,93.0,0,68.4,0,99.0,9.95,99.0,0.1,2193.8836,419455.0,0.8,0.7,0.821,14.1
+Samoa,2013,Developing,73.6,131.0,0,0.01,698.3522786,6.0,0,73.8,0,62.0,6.91,67.0,0.1,4219.65123,19757.0,0.2,0.1,0.7,12.9
+France,2005,Developing,81.0,93.0,3,12.2,5451.701225,35.0,36,57.5,4,98.0,1.6,98.0,0.1,34879.72633,63179356.0,0.6,0.6,0.86,15.5
+Guatemala,2002,Developing,69.3,21.0,16,2.41,25.25040918,,0,41.7,20,82.0,6.71,82.0,0.3,171.771491,1228848.0,1.5,1.5,0.553,8.8
+Japan,2003,Developed,81.9,7.0,3,7.83,578.7254273,,8286,23.4,5,97.0,8.0,97.0,0.1,3488.3992,127718.0,1.7,1.4,0.863,14.8
+Syrian Arab Republic,2007,Developing,73.8,121.0,8,0.83,17.98136184,83.0,403,49.4,9,83.0,3.72,8.0,0.1,258.3529,1963286.0,6.4,6.2,0.644,11.5
+Senegal,2010,Developing,64.3,212.0,21,0.28,1.020071763,89.0,428,21.7,32,76.0,4.62,89.0,0.4,11.631377,12916229.0,1.4,1.3,0.449,7.7
+Haiti,2004,Developing,58.7,32.0,18,6.1,64.39853344,,0,37.5,24,58.0,5.61,55.0,4.3,387.9429725,9119178.0,4.5,4.5,0.45,8.1
+Norway,2009,Developed,89.0,67.0,0,6.68,142.3749426,,2,58.5,0,94.0,9.49,94.0,0.1,817.77681,4828726.0,0.7,0.7,0.936,17.4
+Estonia,2014,Developing,77.3,122.0,0,0.01,2700.07305,93.0,0,59.4,0,93.0,6.38,93.0,0.1,19941.45532,1314545.0,1.9,1.9,0.86,16.5
+Samoa,2000,Developing,72.0,18.0,0,3.0,21.2543002,89.0,0,65.6,0,94.0,5.31,95.0,0.1,154.68923,17461.0,0.2,0.2,0.64,12.1
+Norway,2012,Developed,81.3,61.0,0,6.21,2094.19096,,4,59.8,0,95.0,9.16,95.0,0.1,11563.727,518573.0,0.7,0.7,0.941,17.6
+Jordan,2008,Developing,73.1,119.0,4,0.61,535.2786404,97.0,2,6.1,4,98.0,8.78,97.0,0.1,3385.69665,6489822.0,3.8,3.8,0.739,13.6
+Bahamas,2000,Developing,72.6,192.0,0,12.15,0.0,,0,54.4,0,91.0,5.21,99.0,0.1,,,2.7,2.6,0.0,12.0
+Zimbabwe,2015,Developing,67.0,336.0,22,,0.0,87.0,0,31.8,32,88.0,,87.0,6.2,118.69383,15777451.0,5.6,5.5,0.507,10.3
+Iran (Islamic Republic of),2002,Developing,71.2,142.0,31,0.01,0.0,99.0,9554,46.2,37,99.0,5.39,99.0,0.1,,,7.6,7.7,0.674,11.9
+Solomon Islands,2001,Developing,66.2,227.0,0,0.7,325.1114746,83.0,0,38.7,0,88.0,6.44,84.0,0.1,944.81684,423853.0,1.4,1.4,0.442,6.6
+Algeria,2003,Developing,71.7,146.0,20,0.34,25.0185226,,15374,47.0,23,87.0,3.6,87.0,0.1,294.33556,3243514.0,6.3,6.1,0.663,11.5
+Sao Tome and Principe,2000,Developing,62.6,224.0,0,5.07,0.0,,0,2.7,0,87.0,8.86,82.0,1.5,,13866.0,8.0,8.1,0.488,9.3
+Guinea-Bissau,2002,Developing,52.8,35.0,5,2.47,24.65761755,,298,18.5,8,61.0,5.84,57.0,4.1,321.481324,1293523.0,9.8,9.7,0.0,7.1
+Democratic People's Republic of Korea,2015,Developing,76.0,139.0,6,,0.0,96.0,0,32.9,7,99.0,,96.0,0.1,,,4.9,4.9,,
+Germany,2008,Developed,79.9,8.0,2,11.36,8285.264655,87.0,917,59.0,3,95.0,1.39,96.0,0.1,45699.19832,821197.0,1.1,1.1,0.903,16.6
+Thailand,2001,Developing,71.2,194.0,17,5.92,176.0625201,95.0,7319,19.4,20,97.0,3.32,96.0,0.8,1893.145377,63543322.0,9.3,9.6,0.649,11.2
+Belgium,2004,Developed,78.8,91.0,1,12.05,5160.508378,64.0,61,59.8,1,96.0,9.32,95.0,0.1,35589.71295,1421137.0,0.8,0.8,0.88,18.8
+Turkey,2010,Developing,74.2,116.0,21,1.49,32.78235828,96.0,7,61.9,25,97.0,5.61,97.0,0.1,1672.5693,72326914.0,4.9,4.7,0.715,13.0
+Belgium,2009,Developed,79.8,85.0,0,10.05,671.9376566,97.0,33,61.6,1,98.0,1.39,98.0,0.1,4488.5615,1796493.0,0.9,0.9,0.876,15.8
+Zimbabwe,2003,Developing,44.5,715.0,26,4.06,0.0,7.0,998,26.7,41,7.0,6.52,68.0,36.7,453.3511552,12633897.0,9.8,9.9,0.418,9.5
+Bhutan,2005,Developing,65.0,254.0,1,0.73,145.5965445,95.0,11,16.7,1,95.0,5.28,95.0,0.3,1247.61392,656639.0,17.8,18.6,0.0,9.2
+Ethiopia,2000,Developing,51.2,391.0,253,0.88,11.59481766,,1660,12.3,404,55.0,4.36,3.0,5.0,123.876257,66537331.0,11.9,11.8,0.0,3.9
+El Salvador,2002,Developing,73.0,24.0,3,2.97,29.68529375,81.0,0,47.0,4,81.0,7.9,81.0,0.4,248.4125,59433.0,2.0,1.9,0.621,11.8
+Bulgaria,2006,Developed,72.2,161.0,1,10.39,508.6304588,96.0,1,6.3,1,96.0,6.67,95.0,0.1,4513.13628,76122.0,2.2,2.2,0.75,13.5
+Togo,2013,Developing,59.4,287.0,14,0.01,48.73047089,84.0,564,23.1,20,84.0,5.12,84.0,1.5,579.43485,742948.0,6.8,6.6,0.47,12.0
+Solomon Islands,2012,Developing,68.7,184.0,0,0.01,247.9492284,99.0,0,48.1,0,99.0,5.48,99.0,0.1,1858.689868,551531.0,1.2,1.2,0.505,9.4
+Poland,2014,Developed,77.3,12.0,2,10.71,243.808475,96.0,0,61.1,2,94.0,6.35,98.0,0.1,14341.675,3811735.0,1.9,2.1,0.85,16.4
+Comoros,2005,Developing,60.0,266.0,2,0.24,69.9675435,68.0,912,19.2,2,67.0,4.32,68.0,0.1,621.93372,611627.0,7.5,7.4,0.434,9.7
+Czechia,2011,Developed,77.8,97.0,0,12.43,0.0,99.0,17,64.0,0,99.0,7.5,99.0,0.1,,,1.9,1.9,,
+Bhutan,2014,Developing,69.4,216.0,0,0.01,209.3921344,99.0,0,23.6,1,98.0,3.57,99.0,0.5,2522.7968,776448.0,15.7,16.2,0.596,12.5
+Malaysia,2014,Developing,74.8,126.0,4,0.52,721.3655432,96.0,221,39.5,4,97.0,4.17,97.0,0.1,11183.96191,322817.0,7.6,7.4,0.783,13.0
+Iraq,2015,Developing,68.9,182.0,32,,0.0,56.0,1433,59.1,38,63.0,,58.0,0.1,4974.2693,36115649.0,5.3,5.1,0.649,10.1
+Cyprus,2009,Developed,79.3,6.0,0,10.8,230.2524184,96.0,0,57.3,0,99.0,7.4,99.0,0.1,3215.8159,19876.0,0.9,1.0,0.849,14.1
+Albania,2001,Developing,73.6,14.0,1,4.25,96.20557078,96.0,18,46.0,1,97.0,6.0,97.0,0.1,1326.97339,36173.0,2.1,2.1,0.662,10.6
+Romania,2002,Developed,77.0,178.0,4,9.62,37.82275031,99.0,14,52.4,5,98.0,4.57,98.0,0.1,2124.873613,2173496.0,3.7,4.1,0.714,12.0
+Uganda,2010,Developing,58.4,362.0,79,10.03,116.202964,8.0,1313,16.3,119,79.0,11.2,8.0,8.0,594.9972557,33915133.0,6.0,6.0,0.473,10.9
+Panama,2003,Developing,75.5,126.0,1,5.52,58.45976019,98.0,0,48.6,2,95.0,7.6,98.0,0.1,4267.13578,329174.0,2.2,2.2,0.728,12.8
+Egypt,2007,Developing,69.7,171.0,55,0.21,0.0,98.0,1684,54.8,65,98.0,4.95,98.0,0.1,,,3.1,3.1,0.644,11.7
+Pakistan,2010,Developing,65.1,172.0,372,0.04,0.66751505,82.0,4321,21.9,461,82.0,3.2,82.0,0.1,14.142268,1756182.0,2.2,2.7,0.521,7.5
+Nigeria,2004,Developing,48.5,47.0,563,9.76,57.22555815,,31521,18.8,907,43.0,4.33,33.0,5.4,648.815852,135393616.0,13.2,13.2,0.445,8.5
+Turkey,2011,Developing,74.5,114.0,20,1.53,1275.877569,96.0,111,62.8,23,97.0,5.29,97.0,0.1,11341.13395,7349455.0,4.9,4.7,0.737,13.8
+Solomon Islands,2011,Developing,68.5,186.0,0,0.99,229.6687488,99.0,0,47.2,0,99.0,5.8,99.0,0.1,1642.837974,539614.0,1.2,1.2,0.497,9.4
+Iran (Islamic Republic of),2005,Developing,72.0,139.0,27,0.01,0.0,94.0,7,48.5,32,95.0,6.6,95.0,0.1,,,7.4,7.7,0.687,11.4
+Italy,2011,Developed,82.0,6.0,2,6.98,5439.691769,96.0,5189,61.5,2,96.0,9.27,96.0,0.1,38334.68477,59379449.0,0.5,0.5,0.872,16.4
+Djibouti,2009,Developing,69.0,279.0,1,0.49,177.2671607,89.0,48,31.7,2,89.0,8.37,89.0,3.2,1253.657431,83684.0,5.7,5.6,0.436,5.3
+Côte d'Ivoire,2011,Developing,51.7,419.0,60,3.13,0.0,62.0,628,25.6,83,58.0,6.42,62.0,3.3,,,6.1,6.0,,
+Bahamas,2013,Developing,74.8,172.0,0,9.42,0.0,97.0,0,63.2,0,97.0,7.5,97.0,0.1,,,2.5,2.5,0.79,12.6
+South Sudan,2002,Developing,52.0,382.0,30,,0.0,,0,,48,,,,3.3,,7237276.0,,,0.0,0.0
+Senegal,2002,Developing,58.4,252.0,25,0.36,49.73511396,,18184,18.3,47,6.0,5.6,6.0,0.7,513.26227,1396861.0,12.0,11.9,0.397,5.7
+Sudan,2010,Developing,62.5,243.0,62,1.77,172.0097884,75.0,680,,92,9.0,7.97,9.0,0.3,1476.47887,34385963.0,,,0.461,7.0
+Timor-Leste,2007,Developing,65.8,173.0,2,0.05,11.75766897,,0,14.2,3,7.0,0.37,7.0,0.1,524.8959363,164973.0,11.8,11.8,0.541,11.3
+Bosnia and Herzegovina,2011,Developing,76.9,92.0,0,4.64,7.959131146,88.0,10,53.7,0,89.0,9.71,88.0,0.1,55.156834,3688865.0,2.6,2.5,0.711,13.4
+Guinea-Bissau,2015,Developing,58.9,275.0,4,,0.0,87.0,153,26.3,6,87.0,,87.0,3.2,596.8717189,177526.0,7.1,7.0,0.421,9.2
+Timor-Leste,2009,Developing,66.6,165.0,2,0.09,36.199487,72.0,10,15.1,3,78.0,1.2,72.0,0.1,757.3114436,19221.0,11.6,11.6,0.599,12.1
+Czechia,2013,Developed,78.2,9.0,0,12.45,0.0,99.0,15,65.1,0,99.0,7.49,98.0,0.1,,,1.8,1.9,,
+Antigua and Barbuda,2006,Developing,74.8,145.0,0,8.93,216.3146941,99.0,0,42.0,0,99.0,4.34,99.0,0.1,12724.39377,,3.4,3.4,0.773,14.7
+Republic of Korea,2004,Developing,78.2,89.0,3,9.18,0.0,92.0,11,26.7,3,9.0,4.96,88.0,0.1,,,1.6,1.0,,
+Denmark,2006,Developed,78.1,93.0,0,11.02,850.9544783,,27,55.4,0,93.0,9.92,93.0,0.1,5226.99311,5437272.0,1.2,0.9,0.902,16.9
+Barbados,2012,Developing,75.1,12.0,0,8.61,260.0043858,87.0,0,52.2,0,88.0,7.43,87.0,0.1,15384.8749,,3.8,3.8,0.785,15.3
+Uganda,2002,Developing,48.8,523.0,112,10.42,2.690897842,29.0,49871,13.6,181,57.0,7.78,57.0,10.0,24.2423229,2571848.0,6.8,6.8,0.404,11.0
+Angola,2000,Developing,45.3,48.0,97,1.85,15.88149254,,2219,15.4,160,3.0,2.79,28.0,2.0,555.2969419,1644924.0,1.9,1.9,0.382,4.6
+Paraguay,2011,Developing,73.4,15.0,3,5.79,472.1932825,89.0,0,47.1,3,84.0,9.42,89.0,0.1,3988.11894,6293783.0,2.1,2.0,0.675,12.3
+Burkina Faso,2005,Developing,53.3,313.0,48,4.88,8.769989329,,253,14.2,89,94.0,6.87,82.0,2.3,46.998871,1342193.0,1.3,9.8,0.0,4.3
+Suriname,2001,Developing,67.7,219.0,0,4.23,191.2135044,,0,48.3,0,65.0,8.38,68.0,1.8,1598.77512,47774.0,3.6,3.5,0.0,11.0
+Algeria,2002,Developing,71.6,145.0,20,0.36,148.5119843,,5862,46.1,23,86.0,3.73,86.0,0.1,1774.33673,3199546.0,6.3,6.2,0.653,11.1
+Jamaica,2014,Developing,75.8,133.0,1,3.83,427.3054534,92.0,0,53.5,1,93.0,5.36,92.0,0.5,4855.743789,286287.0,1.8,1.7,0.727,12.8
+Kiribati,2000,Developing,64.1,222.0,0,0.46,11.07543331,9.0,0,67.9,0,9.0,8.12,9.0,0.1,796.7937634,8446.0,0.2,0.2,0.0,10.0
+Georgia,2014,Developing,74.5,125.0,1,6.13,221.482875,91.0,3188,55.3,1,91.0,7.42,91.0,0.1,4429.6575,3727.0,2.7,2.8,0.759,13.5
+Tonga,2001,Developing,71.8,157.0,0,1.35,330.1007394,91.0,4,66.2,0,91.0,5.66,89.0,0.1,1837.977391,98611.0,0.1,0.1,0.674,13.2
+Lesotho,2014,Developing,52.1,522.0,4,0.01,162.1278115,93.0,0,32.0,6,9.0,1.62,93.0,9.4,1174.839214,2145785.0,5.8,5.6,0.491,10.8
+Argentina,2015,Developing,76.3,116.0,8,,0.0,94.0,0,62.8,9,93.0,,94.0,0.1,13467.1236,43417765.0,1.0,0.9,0.826,17.3
+New Zealand,2001,Developed,78.5,83.0,0,8.75,2205.98595,9.0,65,59.6,0,82.0,7.58,9.0,0.1,13882.85683,,0.3,0.3,0.868,17.4
+Mozambique,2003,Developing,51.0,424.0,85,1.68,42.52689559,76.0,28898,17.7,124,67.0,6.39,85.0,15.3,283.8911588,19716598.0,4.0,3.9,0.318,6.7
+Mexico,2010,Developing,75.6,127.0,35,5.21,1033.039737,93.0,0,6.1,40,95.0,6.39,95.0,0.1,8959.581416,117318941.0,1.6,1.6,0.739,12.5
+Argentina,2002,Developing,74.1,138.0,12,7.81,470.1869145,66.0,0,55.1,13,94.0,8.31,93.0,0.1,2579.193168,3788937.0,1.2,1.0,0.776,16.3
+Guatemala,2012,Developing,71.3,189.0,11,2.02,484.7187892,96.0,0,48.6,13,94.0,6.33,96.0,0.4,3299.65139,1527156.0,1.2,1.2,0.616,10.6
+Saint Vincent and the Grenadines,2015,Developing,73.2,156.0,0,,0.0,98.0,0,54.1,0,97.0,,98.0,0.1,,,3.5,3.4,0.72,13.3
+San Marino,2013,Developing,,,0,0.01,0.0,69.0,0,,0,69.0,6.5,69.0,0.1,,,,,,15.1
+Equatorial Guinea,2015,Developing,58.2,32.0,3,,0.0,16.0,1250,24.5,4,17.0,,16.0,4.2,1347.31257,1175389.0,8.4,8.3,0.582,9.2
+Burkina Faso,2004,Developing,52.4,323.0,49,4.54,56.96108089,,77,13.7,91,83.0,6.45,79.0,2.5,371.323865,133569.0,1.5,1.1,0.0,3.9
+Netherlands,2012,Developed,81.1,62.0,1,9.05,1162.656768,2.0,10,6.5,1,97.0,11.1,97.0,0.1,49474.7561,16754962.0,1.0,0.9,0.921,18.1
+Latvia,2007,Developed,78.0,221.0,0,12.12,170.9884138,91.0,0,57.7,0,94.0,7.1,94.0,0.1,1444.1589,22325.0,2.4,2.4,0.814,16.2
+Croatia,2005,Developed,75.2,116.0,0,11.59,167.2319899,,2,57.5,0,96.0,6.89,96.0,0.1,1224.2459,4442.0,1.8,1.8,0.777,13.6
+Sao Tome and Principe,2001,Developing,62.8,225.0,0,5.02,3.841228575,,0,21.1,0,9.0,1.28,92.0,1.5,51.216381,141622.0,7.8,7.8,0.497,9.4
+Mongolia,2013,Developing,68.1,227.0,1,0.01,241.1958645,98.0,0,5.4,1,98.0,4.21,98.0,0.1,4385.379355,286917.0,2.2,2.3,0.72,14.7
+Brunei Darussalam,2015,Developing,77.7,78.0,0,,0.0,99.0,4,41.2,0,99.0,,99.0,0.1,3967.8951,,5.7,5.1,0.864,14.9
+Mali,2013,Developing,57.3,275.0,53,0.01,36.86104319,69.0,221,22.5,86,7.0,6.58,69.0,1.6,777.659139,16477818.0,8.1,7.9,0.421,8.0
+Luxembourg,2010,Developed,86.0,73.0,0,11.36,2267.252192,94.0,0,59.2,0,96.0,7.68,99.0,0.1,14965.361,56953.0,0.9,0.9,0.884,13.7
+Armenia,2009,Developing,73.3,137.0,1,3.96,201.1855461,93.0,0,5.7,1,94.0,4.55,93.0,0.1,2993.832531,2888584.0,2.0,2.1,0.725,11.9
+Fiji,2006,Developing,68.5,211.0,0,2.06,52.1241634,99.0,136,55.9,0,98.0,3.84,98.0,0.1,3749.939813,827411.0,4.1,3.8,0.695,14.0
+Burundi,2011,Developing,57.4,321.0,22,4.16,3.595980333,96.0,129,16.6,33,95.0,8.58,96.0,1.5,26.479973,94358.0,7.6,7.6,0.385,9.9
+Cyprus,2011,Developed,79.7,57.0,0,10.69,2443.325028,96.0,0,58.3,0,99.0,7.54,99.0,0.1,32233.83942,1124835.0,0.9,1.0,0.847,13.8
+Cambodia,2000,Developing,57.7,274.0,27,1.51,0.328418056,,12237,12.1,36,62.0,5.87,59.0,2.1,3.685949,12152354.0,11.6,11.9,0.401,7.2
+South Sudan,2007,Developing,53.1,381.0,27,,0.0,,0,,43,,,,4.2,,88568.0,,,0.0,0.0
+Madagascar,2013,Developing,64.7,23.0,29,0.87,79.50882493,74.0,6,19.5,40,73.0,4.15,74.0,0.4,461.723722,22961146.0,7.3,7.2,0.508,10.3
+Belarus,2000,Developing,68.0,247.0,1,12.98,24.24947846,7.0,21,54.4,1,99.0,6.13,99.0,0.1,1276.28834,997961.0,2.7,2.8,0.675,13.1
+Comoros,2002,Developing,59.5,271.0,2,0.08,29.41897495,,0,18.0,2,98.0,3.39,89.0,0.1,433.2691451,569479.0,7.7,7.7,0.0,8.8
+United Republic of Tanzania,2005,Developing,52.2,449.0,97,3.94,0.0,9.0,23,18.1,149,91.0,4.66,9.0,10.0,,,7.7,7.6,,
+The former Yugoslav republic of Macedonia,2003,Developing,73.2,126.0,0,2.4,0.0,,18,54.1,0,96.0,9.17,96.0,0.1,,,2.7,2.7,0.0,11.9
+Cyprus,2012,Developed,80.0,56.0,0,10.55,2159.756205,96.0,1,58.7,0,99.0,7.44,99.0,0.1,28951.15556,113562.0,0.9,1.0,0.85,13.8
+Indonesia,2009,Developing,67.9,189.0,143,0.08,125.7980678,82.0,20818,22.1,174,85.0,2.83,78.0,0.3,2254.44566,23934478.0,1.7,1.6,0.645,11.7
+Denmark,2004,Developed,77.7,98.0,0,11.27,6948.839868,,0,54.4,0,95.0,9.67,95.0,0.1,46511.6457,544523.0,1.2,1.0,0.893,16.5
+Sierra Leone,2010,Developing,48.1,424.0,27,3.84,5.347717533,86.0,1089,21.7,40,84.0,1.32,86.0,1.6,45.128418,645872.0,8.3,8.2,0.384,8.7
+Somalia,2009,Developing,52.2,335.0,52,0.01,0.0,,13,21.5,84,41.0,,42.0,0.8,,,7.1,6.9,,
+Niger,2010,Developing,58.2,252.0,50,0.12,5.883760536,7.0,372,17.3,95,75.0,6.36,7.0,0.9,348.151511,16425578.0,1.7,1.6,0.312,4.5
+Kenya,2002,Developing,52.1,437.0,76,1.66,32.73674134,84.0,766,15.1,118,83.0,4.54,84.0,15.7,395.8493511,332149.0,8.9,8.9,0.451,8.5
+Venezuela (Bolivarian Republic of),2008,Developing,73.2,168.0,9,8.18,0.0,53.0,0,58.2,10,76.0,3.98,5.0,0.1,,,1.6,1.5,0.745,13.4
+Sri Lanka,2010,Developing,74.5,138.0,3,2.31,191.7267589,99.0,79,19.8,4,99.0,3.43,99.0,0.1,2819.511161,2119.0,15.3,15.3,0.739,13.5
+Central African Republic,2000,Developing,46.0,49.0,16,1.51,30.78382657,,3207,16.5,25,38.0,4.24,37.0,14.3,243.5429317,3754986.0,1.5,1.5,0.312,5.2
+Saint Vincent and the Grenadines,2010,Developing,72.5,162.0,0,7.0,0.0,99.0,0,49.3,0,99.0,4.71,99.0,0.1,,,3.5,3.5,0.711,13.3
+Sudan,2003,Developing,59.6,278.0,69,1.74,35.35264737,,4381,,104,69.0,3.18,69.0,0.2,477.738478,29435944.0,,,0.409,5.6
+Jordan,2005,Developing,72.4,127.0,4,0.55,27.44252286,95.0,28,57.8,4,95.0,8.88,95.0,0.1,223.83787,5714111.0,3.9,3.8,0.73,13.8
+Haiti,2013,Developing,62.7,253.0,14,5.68,4.989712322,68.0,0,47.7,19,67.0,8.1,68.0,0.5,81.265673,1431776.0,3.9,3.9,0.483,9.1
+Turkmenistan,2006,Developing,63.7,245.0,6,2.71,29.27235366,98.0,48,41.3,8,98.0,2.9,98.0,0.1,2136.66815,48115.0,3.3,3.3,0.0,10.4
+Lao People's Democratic Republic,2012,Developing,64.4,28.0,9,0.01,0.0,79.0,32,19.4,12,78.0,2.12,79.0,0.3,,,9.1,9.2,0.554,10.2
+Finland,2000,Developing,77.5,15.0,0,8.59,397.7533689,,0,55.5,0,96.0,7.22,99.0,0.1,24253.2542,517629.0,0.9,0.9,0.847,17.3
+Guinea,2014,Developing,58.1,299.0,27,0.01,50.57976483,51.0,175,22.7,41,42.0,5.64,51.0,0.5,561.997387,118559.0,7.5,7.4,0.412,8.6
+Tunisia,2007,Developing,74.6,12.0,3,1.24,469.6282925,98.0,4,53.9,4,98.0,5.64,98.0,0.1,3778.184171,129887.0,6.3,6.3,0.695,14.3
+Bosnia and Herzegovina,2013,Developing,77.0,9.0,0,4.12,75.61062911,91.0,0,54.7,0,87.0,9.46,89.0,0.1,535.86555,364999.0,2.4,2.4,0.735,14.2
+Comoros,2009,Developing,61.3,251.0,2,0.17,56.98952474,83.0,1,21.1,2,84.0,3.82,83.0,0.1,778.5454199,673252.0,7.2,7.0,0.465,10.3
+Lithuania,2000,Developed,71.6,2.0,0,9.87,373.2605532,98.0,19,56.9,0,92.0,6.46,94.0,0.1,3297.35471,3499536.0,3.4,3.4,0.745,14.0
+Zambia,2000,Developing,43.8,614.0,44,2.62,45.61688038,,30930,16.8,72,85.0,7.16,85.0,18.7,341.955625,1531221.0,7.5,7.5,0.418,9.6
+Lao People's Democratic Republic,2005,Developing,61.0,246.0,11,3.68,0.0,49.0,295,14.9,16,5.0,4.32,49.0,0.2,,,1.0,1.1,0.494,8.7
+Tunisia,2011,Developing,74.8,13.0,3,1.29,623.2120325,98.0,11,57.4,3,98.0,7.15,98.0,0.1,4256.91279,1761467.0,6.4,6.3,0.714,14.5
+Myanmar,2011,Developing,65.6,27.0,47,0.33,21.23698847,4.0,2046,2.5,61,9.0,1.87,84.0,0.5,1186.423937,555331.0,13.0,13.3,0.526,9.1
+Maldives,2002,Developing,71.8,124.0,0,1.95,4.299053392,98.0,926,16.2,0,98.0,5.78,98.0,0.1,32.37239,297.0,14.6,14.7,0.597,12.0
+Pakistan,2005,Developing,62.9,2.0,364,0.04,30.59320769,7.0,2981,18.9,459,78.0,2.91,77.0,0.1,711.4699463,15399667.0,21.2,21.7,0.487,6.1
+Czechia,2004,Developed,75.8,116.0,0,13.24,0.0,98.0,17,6.8,0,96.0,6.9,98.0,0.1,,,2.1,2.2,,

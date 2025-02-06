@@ -28,22 +28,29 @@ class DataTransformation:
         
         '''
         try:
-            numerical_columns = ['Age', 'Number_of_Dependents', 'Work_Experience', 'Household_Size']
-            categorical_columns = [
-                'Education_Level', 
-                'Occupation', 
-                'Location', 
-                'Marital_Status', 
-                'Employment_Status',
-                'Homeownership_Status', 
-                'Type_of_Housing', 
-                'Gender',
-                'Primary_Mode_of_Transportation'
-            ]
+            numerical_columns = ['Year', 
+                                'Adult Mortality',
+                                'infant deaths', 
+                                'Alcohol', 
+                                'percentage expenditure', 
+                                'Hepatitis B', 'Measles ', 
+                                ' BMI ', 
+                                'under-five deaths ', 
+                                'Polio', 
+                                'Total expenditure', 
+                                'Diphtheria ', 
+                                ' HIV/AIDS', 
+                                'GDP', 
+                                'Population', 
+                                ' thinness  1-19 years', 
+                                ' thinness 5-9 years', 
+                                'Income composition of resources', 
+                                'Schooling']
+            categorical_columns = ['Country', 'Status']
 
             num_pipeline= Pipeline(
                 steps=[
-                ("imputer",SimpleImputer(strategy="median")),
+                ("imputer",SimpleImputer(strategy="mean")),
                 ("scaler",StandardScaler())
                 ]
             )
@@ -51,7 +58,7 @@ class DataTransformation:
             cat_pipeline=Pipeline(
                 steps=[
                     ('imputer',SimpleImputer(strategy='most_frequent')),
-                    ("ordinal_encoder",OrdinalEncoder()),
+                    ("ordinal_encoder",OrdinalEncoder(handle_unknown='use_encoded_value', unknown_value=-1)),
                     ("scaler",StandardScaler(with_mean=False))
                 ]
             )
@@ -83,8 +90,18 @@ class DataTransformation:
             preprocessing_obj=self.get_data_transformer_object()
 
 
-            target_column_name="Income"
+            target_column_name='Life expectancy '
             logging.info(train_df[target_column_name])
+
+            logging.info(f"Checking missing values in target column '{target_column_name}'")
+            missing_train = train_df[target_column_name].isnull().sum()
+            missing_test = test_df[target_column_name].isnull().sum()
+
+            if missing_train > 0 or missing_test > 0:
+              logging.info(f"Missing values found in target column: {missing_train} in train, {missing_test} in test")
+            
+            train_df[target_column_name] = train_df[target_column_name].fillna(train_df[target_column_name].mean())
+            test_df[target_column_name] = test_df[target_column_name].fillna(test_df[target_column_name].mean())
 
             input_feature_train_df=train_df.drop(columns=[target_column_name],axis=1)
             target_feature_train_df=train_df[target_column_name]
