@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Expectancy Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+        h1 {
+            color: #333;
+            font-size: 28px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .welcome {
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Life Expectancy Prediction</h1>
+        <form action="{{ url_for('predict_datapoint') }}" method="post">
+            <div class="form-group">
+                <label>Country</label>
+                <input type="text" name="country" required>
+            </div>
+            <div class="form-group">
+                <label>Year</label>
+                <input type="number" name="year" required>
+            </div>
+            <div class="form-group">
+                <label>Status</label>
+                <select name="status" required>
+                    <option value="">Select Status</option>
+                    <option value="Developed">Developed</option>
+                    <option value="Developing">Developing</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Adult Mortality</label>
+                <input type="number" step="any" name="adult_mortality" required>
+            </div>
+            <div class="form-group">
+                <label>Infant Deaths</label>
+                <input type="number" name="infant_deaths" required>
+            </div>
+            <div class="form-group">
+                <label>Alcohol Consumption</label>
+                <input type="number" step="any" name="alcohol" required>
+            </div>
+            <div class="form-group">
+                <label>Percentage Expenditure</label>
+                <input type="number" step="any" name="percentage_expenditure" required>
+            </div>
+            <div class="form-group">
+                <label>Hepatitis B</label>
+                <input type="number" step="any" name="hepatitis_b" required>
+            </div>
+            <div class="form-group">
+                <label>Measles</label>
+                <input type="number" name="measles" required>
+            </div>
+            <div class="form-group">
+                <label>BMI</label>
+                <input type="number" step="any" name="bmi" required>
+            </div>
+            <div class="form-group">
+                <label>Under-Five Deaths</label>
+                <input type="number" name="under_five_deaths" required>
+            </div>
+            <div class="form-group">
+                <label>Polio</label>
+                <input type="number" step="any" name="polio" required>
+            </div>
+            <div class="form-group">
+                <label>Total Expenditure</label>
+                <input type="number" step="any" name="total_expenditure" required>
+            </div>
+            <div class="form-group">
+                <label>Diphtheria</label>
+                <input type="number" step="any" name="diphtheria" required>
+            </div>
+            <div class="form-group">
+                <label>HIV/AIDS</label>
+                <input type="number" step="any" name="hiv_aids" required>
+            </div>
+            <div class="form-group">
+                <label>GDP</label>
+                <input type="number" step="any" name="gdp" required>
+            </div>
+            <div class="form-group">
+                <label>Population</label>
+                <input type="number" step="any" name="population" required>
+            </div>
+            <div class="form-group">
+                <label>Thinness 1-19 Years</label>
+                <input type="number" step="any" name="thinness_1_19_years" required>
+            </div>
+            <div class="form-group">
+                <label>Thinness 5-9 Years</label>
+                <input type="number" step="any" name="thinness_5_9_years" required>
+            </div>
+            <div class="form-group">
+                <label>Income Composition of Resources</label>
+                <input type="number" step="any" name="income_composition" required>
+            </div>
+            <div class="form-group">
+                <label>Schooling</label>
+                <input type="number" step="any" name="schooling" required>
+            </div>
+            <div class="form-group">
+                <input class="btn" type="submit" value="Predict Life Expectancy">
+            </div>
+        </form>
+        <h2 style="text-align:center; color:#333;">The prediction is {{ results }}</h2>
+    </div>
+</body>
+</html>
